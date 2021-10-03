@@ -10604,6 +10604,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 4.3460364
       objectReference: {fileID: 0}
+    - target: {fileID: 1663612490, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
+      propertyPath: m_GravityScale
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2722486965110257553, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -11173,7 +11177,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902543413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8514252, y: 1.0219569, z: -10}
+  m_LocalPosition: {x: 6.2307816, y: 1.182158, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
