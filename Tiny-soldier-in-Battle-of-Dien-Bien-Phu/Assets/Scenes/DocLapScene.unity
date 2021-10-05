@@ -660,6 +660,36 @@ Transform:
   m_Father: {fileID: 1227628077}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &225834826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 225834827}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &225834827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225834826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.43, y: 8.86, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 794181085}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &262234850
 GameObject:
   m_ObjectHideFlags: 0
@@ -1316,7 +1346,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.51, y: 0.862, z: 0}
   m_MaxChunkCount: 16
@@ -8898,8 +8928,8 @@ PolygonCollider2D:
       - {x: 5.5030947, y: -8.477801}
       - {x: 5.5087204, y: -7.5135326}
       - {x: 3.86592, y: -7.5071845}
-      - {x: 3.8291645, y: -5.512636}
-      - {x: -14.504233, y: -5.5881863}
+      - {x: 3.8896065, y: -5.8148465}
+      - {x: -14.504233, y: -5.8601756}
       - {x: 3.174273, y: -11.154259}
       - {x: 9.890509, y: -11.588371}
       - {x: 21.466518, y: -11.163889}
@@ -10286,6 +10316,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2722486965110257553, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
   m_PrefabInstance: {fileID: 1513556147}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1335501697 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 174943635074568804, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
+  m_PrefabInstance: {fileID: 1513556147}
+  m_PrefabAsset: {fileID: 0}
 --- !u!70 &1335501700
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -10604,10 +10639,30 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 4.3460364
       objectReference: {fileID: 0}
+    - target: {fileID: 1663612490, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
+      propertyPath: m_GravityScale
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2722486965110257553, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3568383280164533027, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1335501697}
+    - target: {fileID: 3568383280164533027, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
+      propertyPath: FirePoint
+      value: 
+      objectReference: {fileID: 225834827}
+    - target: {fileID: 3568383280164533027, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3568383280164533027, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 6956001634198244587, guid: b0feb2124f46bd449827be05a76d0ff8, type: 3}
     - target: {fileID: 5565789722051526130, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.46
