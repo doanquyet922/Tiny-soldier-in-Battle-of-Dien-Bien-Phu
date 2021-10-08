@@ -2,23 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class BulletEnemy : MonoBehaviour
 {
     public float speed = 20f;
     public Rigidbody2D rb;
     public int damage = 20;
-   
+
     // Start is called before the first frame update
     void Start()
     {
         rb.velocity = transform.right * speed;
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,12 +26,12 @@ public class Bullet : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        if (collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Player"))
         {
 
-            GameObject enemy = collision.gameObject;
-            HealthEnemy hd = enemy.GetComponent<HealthEnemy>();
-            hd.TakeDamge(damage);
+            //GameObject enemy = collision.gameObject;
+            //HealthEnemy hd = enemy.GetComponent<HealthEnemy>();
+            //hd.TakeDamge(damage);
             Destroy(gameObject);
         }
     }

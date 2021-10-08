@@ -28,7 +28,7 @@ public class CharacterController2D : MonoBehaviour
 	public class BoolEvent : UnityEvent<bool> { }
 
 	public BoolEvent OnCrouchEvent;
-	private bool m_wasCrouching = false;
+	public bool m_wasCrouching = false;
 
 	private void Awake()
 	{
@@ -129,6 +129,11 @@ public class CharacterController2D : MonoBehaviour
 			// Add a vertical force to the player.
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+		}
+		if(!m_Grounded && crouch)
+        {
+			m_Rigidbody2D.AddForce(new Vector2(0f, -m_JumpForce));
+
 		}
 	}
 

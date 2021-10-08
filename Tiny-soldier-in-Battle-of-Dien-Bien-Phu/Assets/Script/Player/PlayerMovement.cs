@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public float speed = 40f;
     float m_movehorizontal = 0f;
-    
+    public Rigidbody2D rb;
     bool m_isJump = false, m_isCrouch = false;
 
     // Start is called before the first frame update
@@ -24,19 +24,27 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("speed", Mathf.Abs(m_movehorizontal));
         if (Input.GetButtonDown("Jump"))
         {
-            m_isJump = true;
-            animator.SetBool("jump", true);
+           
+            if (m_isCrouch == false)
+            {
+                m_isJump = true;
+                animator.SetBool("jump", true);
+            }
+            
             
         }
         if (Input.GetButtonDown("Crouch"))
         {
             m_isCrouch = true;
             animator.SetBool("crouch",true);
+            rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+
         }
         if(Input.GetButtonUp("Crouch"))
         {
             m_isCrouch = false;
             animator.SetBool("crouch", false);
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
         
     }

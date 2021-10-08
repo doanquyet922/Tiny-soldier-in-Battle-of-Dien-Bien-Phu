@@ -21,13 +21,14 @@ public class WeaponController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetButtonDown("Fire1") && timeUnitFire < Time.time)
         {
             animator.SetBool("shoot", true);
             StartCoroutine(Shoot());
             timeUnitFire = Time.time + fireRate;
         }
-        if (Input.GetButtonUp("Fire1") )
+        if (Input.GetButtonUp("Fire1"))
         {
             animator.SetBool("shoot", false);
             StopAllCoroutines();
@@ -36,9 +37,9 @@ public class WeaponController : MonoBehaviour
 
     private IEnumerator Shoot()
     {
-        
+
         float angle = pm.m_FacingRight ? 0f : 180f;
-        Instantiate(bulletPrefab, FirePoint.position,Quaternion.Euler(new Vector3(0, 0, angle)));
+        Instantiate(bulletPrefab, FirePoint.position, Quaternion.Euler(new Vector3(0, 0, angle)));
         yield return new WaitForSeconds(fireRate);
         StartCoroutine(Shoot());
     }
