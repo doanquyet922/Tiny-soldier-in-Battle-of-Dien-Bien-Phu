@@ -1,0 +1,1387 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16192 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+F:\Unity3D\2020.3.15f2\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+F:/Git Project Unity/Tiny-soldier-in-Battle-of-Dien-Bien-Phu/Tiny-soldier-in-Battle-of-Dien-Bien-Phu
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+65177
+Successfully changed project path to: F:/Git Project Unity/Tiny-soldier-in-Battle-of-Dien-Bien-Phu/Tiny-soldier-in-Battle-of-Dien-Bien-Phu
+F:/Git Project Unity/Tiny-soldier-in-Battle-of-Dien-Bien-Phu/Tiny-soldier-in-Battle-of-Dien-Bien-Phu
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path F:/Unity3D/2020.3.15f2/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Git Project Unity/Tiny-soldier-in-Battle-of-Dien-Bien-Phu/Tiny-soldier-in-Battle-of-Dien-Bien-Phu/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'F:/Unity3D/2020.3.15f2/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity3D/2020.3.15f2/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Unity3D/2020.3.15f2/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity3D/2020.3.15f2/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001262 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.253 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1254ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (549ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003269 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1461ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1180ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2333 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2770.
+Total: 4.869700 ms (FindLiveObjects: 0.297100 ms CreateObjectMapping: 0.070700 ms MarkObjects: 4.204300 ms  DeleteObjects: 0.295900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Slippye.physicsMaterial2D
+  artifactKey: Guid(973bf432b3d2e07459d95de22b1118c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slippye.physicsMaterial2D using Guid(973bf432b3d2e07459d95de22b1118c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb42c9703bb80b685f4ed116a3b63f3') in 0.047030 seconds 
+  Import took 0.052042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.469169 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Example Scene
+  artifactKey: Guid(6df5ae51c7b4e6b4da057c7f28f02588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Example Scene using Guid(6df5ae51c7b4e6b4da057c7f28f02588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a64c325f4e7c99199e7325fd5324474') in 0.011661 seconds 
+  Import took 0.017314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.606970 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center left.png
+  artifactKey: Guid(602b79f0b6f1e254ebab0c7f24aee2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center left.png using Guid(602b79f0b6f1e254ebab0c7f24aee2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42c48f17186e5e480714ff1b98804c9') in 0.098639 seconds 
+  Import took 0.103328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center.png
+  artifactKey: Guid(9be5ba129f842b140b10bf4e2310e434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center.png using Guid(9be5ba129f842b140b10bf4e2310e434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c6abd26d17d0120dff294b70d599d7') in 0.026986 seconds 
+  Import took 0.031897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center_grass.png
+  artifactKey: Guid(5fc359dff544f5f4290ba25bab9fc9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center_grass.png using Guid(5fc359dff544f5f4290ba25bab9fc9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58eb9ea0cd044653b8f5aa6cbaf97423') in 0.037102 seconds 
+  Import took 0.041954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right grass.png
+  artifactKey: Guid(a3204140dde5bc54e9b3071b858bb2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right grass.png using Guid(a3204140dde5bc54e9b3071b858bb2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc157f4b67cff04dc64c5460053195a') in 0.024122 seconds 
+  Import took 0.030061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left.png
+  artifactKey: Guid(13870890b382d334ebe42f6140aa1dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left.png using Guid(13870890b382d334ebe42f6140aa1dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ba5f81c96184c05831de0f50c41bed') in 0.029180 seconds 
+  Import took 0.036230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center right.png
+  artifactKey: Guid(b83abd2c9e60c044e9d70ca7d6d45923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center right.png using Guid(b83abd2c9e60c044e9d70ca7d6d45923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d1cbee64206259b4632be29bec8263') in 0.033745 seconds 
+  Import took 0.040368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right_grass.png
+  artifactKey: Guid(70dea7fddd83c0d4f9beb5fcaea4ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right_grass.png using Guid(70dea7fddd83c0d4f9beb5fcaea4ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c974cdaed37df1ebca75c313875ef90') in 0.026271 seconds 
+  Import took 0.031492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center.png
+  artifactKey: Guid(9df296fbda69cf4408ba1d513ea7d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center.png using Guid(9df296fbda69cf4408ba1d513ea7d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b309233e33f9ef0b7034f709b8510a29') in 0.024877 seconds 
+  Import took 0.029357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left_grass.png
+  artifactKey: Guid(ddc0b9e93b14e324ea9d92c078b54292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left_grass.png using Guid(ddc0b9e93b14e324ea9d92c078b54292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6371fb91b29ee79d0ce760cd3a36a2') in 0.025695 seconds 
+  Import took 0.030733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left grass.png
+  artifactKey: Guid(a8429bb11bf44964687e221c17bfbc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left grass.png using Guid(a8429bb11bf44964687e221c17bfbc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f636c43183d0dfc758bc9bf4914569') in 0.026135 seconds 
+  Import took 0.032259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left corner .png
+  artifactKey: Guid(a872fa2742e16f84da770781b58c9801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left corner .png using Guid(a872fa2742e16f84da770781b58c9801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d9f3c4c5ead2f07c9eb99799837d02') in 0.024779 seconds 
+  Import took 0.031757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right corner  .png
+  artifactKey: Guid(b95ec376682d48b43a186e2e0d8c8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right corner  .png using Guid(b95ec376682d48b43a186e2e0d8c8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0371a6539d47ac473d44a3ca1e222120') in 0.028913 seconds 
+  Import took 0.034385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/down.png
+  artifactKey: Guid(1395e2223e37bc048831fb3969e8a923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/down.png using Guid(1395e2223e37bc048831fb3969e8a923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ccd372d46104530a1410d291c74164') in 0.029294 seconds 
+  Import took 0.034936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center grass.png
+  artifactKey: Guid(5f1c03fcc590c1f4a96215594fee3366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center grass.png using Guid(5f1c03fcc590c1f4a96215594fee3366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e561d3bd216dd1bd7fe372a479aaf5f') in 0.025517 seconds 
+  Import took 0.030957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right.png
+  artifactKey: Guid(0b0bb1540f69b2c489219c4dfbb6af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right.png using Guid(0b0bb1540f69b2c489219c4dfbb6af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e37a9b76c6cf10f230aae01bdd956e8') in 0.032408 seconds 
+  Import took 0.037543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.171635 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Clouds Day_1.png
+  artifactKey: Guid(f412c872af1fe354da52cdd679ef805e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Clouds Day_1.png using Guid(f412c872af1fe354da52cdd679ef805e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af35efc6397ee91d35a23531e729dcda') in 0.032566 seconds 
+  Import took 0.038625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Trees far.png
+  artifactKey: Guid(a2705303c0b30614ea9802ddfba2ebd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Trees far.png using Guid(a2705303c0b30614ea9802ddfba2ebd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6466b4a43bdc0acb5c397f88cad6c7') in 0.032744 seconds 
+  Import took 0.037095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Clouds Day_2.png
+  artifactKey: Guid(0c04352bef71fd8439af7e08ecc997ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Clouds Day_2.png using Guid(0c04352bef71fd8439af7e08ecc997ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f213459ed4ba37fd8a8c692c6dc6c98') in 0.024573 seconds 
+  Import took 0.030110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Mountains Far.png
+  artifactKey: Guid(818bd1477b32f714d9d679dc6a645201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Mountains Far.png using Guid(818bd1477b32f714d9d679dc6a645201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965b71628c5993b3189207cf7101324b') in 0.027221 seconds 
+  Import took 0.032673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Clouds Day_5.png
+  artifactKey: Guid(3c1189ca40290404e9ed69b85c29f1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Clouds Day_5.png using Guid(3c1189ca40290404e9ed69b85c29f1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ab239b683646e07743b39435847423') in 0.024502 seconds 
+  Import took 0.029987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Leafes Far.png
+  artifactKey: Guid(69a74fd769119774f876c620c1119a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Leafes Far.png using Guid(69a74fd769119774f876c620c1119a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3283d4fb623bfcaaa72c76b360fa07f') in 0.027220 seconds 
+  Import took 0.032505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Hills Middle.png
+  artifactKey: Guid(5018927dc80a8654296821dd99110c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Hills Middle.png using Guid(5018927dc80a8654296821dd99110c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1dab8bc3f0e838c8b344ff51ceac06') in 0.042082 seconds 
+  Import took 0.047352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Clouds Day_3.png
+  artifactKey: Guid(c50f97e0c6a39be47995644d8182c316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Clouds Day_3.png using Guid(c50f97e0c6a39be47995644d8182c316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45220ee288e1f854000b24a9eb3d3bd9') in 0.031792 seconds 
+  Import took 0.037089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Trees Middle.png
+  artifactKey: Guid(69719ded04854e24fbd3a8f48e42a508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Trees Middle.png using Guid(69719ded04854e24fbd3a8f48e42a508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c859e4f1a94731c8e85e7209c520339d') in 0.030779 seconds 
+  Import took 0.036256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Water Large.png
+  artifactKey: Guid(23d89018f27b18d469d38ec57d8eca56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Water Large.png using Guid(23d89018f27b18d469d38ec57d8eca56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6df10d0e60c6c578364f728014201fc') in 0.022831 seconds 
+  Import took 0.028278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Mountains Close .png
+  artifactKey: Guid(58010860b27c3d44db587533a412efd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Mountains Close .png using Guid(58010860b27c3d44db587533a412efd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32418ded7c3e04b4b57c2a8119160c7a') in 0.023864 seconds 
+  Import took 0.028982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Clouds Day_4.png
+  artifactKey: Guid(f2857aefd6c4feb429830bf6b9be3d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Clouds Day_4.png using Guid(f2857aefd6c4feb429830bf6b9be3d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad4d9cd7480b98128f76cf332dc9d50') in 0.027404 seconds 
+  Import took 0.035053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Hills CLose.png
+  artifactKey: Guid(cf4447e4a46afd14e9e6c05869c42387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Hills CLose.png using Guid(cf4447e4a46afd14e9e6c05869c42387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa32786cdc42af9d1b5e929671d2ead6') in 0.030004 seconds 
+  Import took 0.035307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Mountain MIddle_2.png
+  artifactKey: Guid(4a94cde3865f1364d9f467f51cf3af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Mountain MIddle_2.png using Guid(4a94cde3865f1364d9f467f51cf3af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93f40021ae55fdb44fdf7fba336b8fc') in 0.048321 seconds 
+  Import took 0.052656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Trees Close.png
+  artifactKey: Guid(8243fa165170ba74ebfb4b6ce4af33b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Trees Close.png using Guid(8243fa165170ba74ebfb4b6ce4af33b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a15b9e610c8ca2cd619a8575b4daf83') in 0.024562 seconds 
+  Import took 0.030083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Mountain MIddle_1.png
+  artifactKey: Guid(a318addd0deff7d42a421f16331bc54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Mountain MIddle_1.png using Guid(a318addd0deff7d42a421f16331bc54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08a6f6dd0160f0df00812353cb2decf') in 0.046853 seconds 
+  Import took 0.051862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Daylight sky.png
+  artifactKey: Guid(cebd3f92ef898c74dba7f3064eacfded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Daylight sky.png using Guid(cebd3f92ef898c74dba7f3064eacfded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e6662c80659f317980e908987d247c') in 0.028457 seconds 
+  Import took 0.034558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Mountains MIddle.png
+  artifactKey: Guid(d7d5969b61b86244b9f6c38ee2f968a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Mountains MIddle.png using Guid(d7d5969b61b86244b9f6c38ee2f968a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2819dc7462e9f2ba6140a961bbca934') in 0.025293 seconds 
+  Import took 0.030836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Ground Close.png
+  artifactKey: Guid(a89243217e543fe4588b733cf125e7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Ground Close.png using Guid(a89243217e543fe4588b733cf125e7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cedf062f1f1094039bc0ee34f0d46a9') in 0.026560 seconds 
+  Import took 0.031902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Ground Far.png
+  artifactKey: Guid(b9e1988da310fbd4ea958a269e29fdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Ground Far.png using Guid(b9e1988da310fbd4ea958a269e29fdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fc42a49ec1ba866ce2143419f37b5e') in 0.027232 seconds 
+  Import took 0.032378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Leafes MIddle.png
+  artifactKey: Guid(faa5ae786f55670458a921f5e9503e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Leafes MIddle.png using Guid(faa5ae786f55670458a921f5e9503e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828ca8204d3f7a1cbf771955fc779a5c') in 0.023586 seconds 
+  Import took 0.028453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Hills Far.png
+  artifactKey: Guid(5a90f7ba6785a4b44a2502c45e52e567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day/Hills Far.png using Guid(5a90f7ba6785a4b44a2502c45e52e567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23749a515017fad909b88362cdd5dacb') in 0.027831 seconds 
+  Import took 0.033698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.938228 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Blocks Large 1.prefab
+  artifactKey: Guid(25f52e9077efd7d4c90fe92bac7e6820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Blocks Large 1.prefab using Guid(25f52e9077efd7d4c90fe92bac7e6820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965c0b2f4febb90496150c815f57af34') in 0.062748 seconds 
+  Import took 0.068049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Ground Close.prefab
+  artifactKey: Guid(776842022f52c304d9f099e7fd27913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Ground Close.prefab using Guid(776842022f52c304d9f099e7fd27913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ab5fd734e41b577d2bdcdca4e75021') in 0.024320 seconds 
+  Import took 0.030021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Hills CLose.prefab
+  artifactKey: Guid(96007914994b8514b87c835104b855e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Hills CLose.prefab using Guid(96007914994b8514b87c835104b855e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f0a305cc539f734c1b9a43af2f2f96') in 0.024473 seconds 
+  Import took 0.029188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Clouds 1.prefab
+  artifactKey: Guid(9762f7ea17ffeed4f89e6a321f218772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Clouds 1.prefab using Guid(9762f7ea17ffeed4f89e6a321f218772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dd2edaa039029ee0a406af5b72a076') in 0.026409 seconds 
+  Import took 0.031456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Clouds 3.prefab
+  artifactKey: Guid(7100b3187e9c30846923faf39c1c3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Clouds 3.prefab using Guid(7100b3187e9c30846923faf39c1c3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75daf3efc8ee5634d20dabc518d75504') in 0.028261 seconds 
+  Import took 0.033682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Hills Middle.prefab
+  artifactKey: Guid(136fdb954a6f185469de730b8f15b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Hills Middle.prefab using Guid(136fdb954a6f185469de730b8f15b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af420bc26fb3c9c44828902714516099') in 0.024640 seconds 
+  Import took 0.030557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Clouds 2.prefab
+  artifactKey: Guid(4358a191dd805314ba07fdcae4aacb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Clouds 2.prefab using Guid(4358a191dd805314ba07fdcae4aacb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cacd57b3b8ab251333a8e3b11d4de34') in 0.024978 seconds 
+  Import took 0.030206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Hills Far.prefab
+  artifactKey: Guid(8f5990b0aeb2c5d43ab018031684aba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Hills Far.prefab using Guid(8f5990b0aeb2c5d43ab018031684aba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994a13cee8e5cf9c949fe3f57e0eacb2') in 0.027656 seconds 
+  Import took 0.033114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Blocks Small 1.prefab
+  artifactKey: Guid(259ef83e5245a62418a1e8f725a531eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Blocks Small 1.prefab using Guid(259ef83e5245a62418a1e8f725a531eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e0e5b34b50733b27e62d9e3f30eaa0') in 0.033167 seconds 
+  Import took 0.039183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Ground Far.prefab
+  artifactKey: Guid(d1f165d4ec325854293f5955ec5c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Ground Far.prefab using Guid(d1f165d4ec325854293f5955ec5c2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2624dd7f02713a7b5e9e9e82dfa96f9') in 0.017473 seconds 
+  Import took 0.022770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/PLatform 1.prefab
+  artifactKey: Guid(e63bf725018eee447ac5fbd9d66e4781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/PLatform 1.prefab using Guid(e63bf725018eee447ac5fbd9d66e4781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3520d5d042cd1e266c42ef26530d2f74') in 0.033206 seconds 
+  Import took 0.039961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Ground Far 1.prefab
+  artifactKey: Guid(2af0a6e720d564c4e830f487b00708c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Ground Far 1.prefab using Guid(2af0a6e720d564c4e830f487b00708c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea97e947a33318e2c09f9549968d7bf') in 0.011041 seconds 
+  Import took 0.017047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Forest.prefab
+  artifactKey: Guid(024606f896ece7c4290812c295930980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Forest.prefab using Guid(024606f896ece7c4290812c295930980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48ee9d753266507fc08ab4210c3d985') in 0.038259 seconds 
+  Import took 0.044508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/PLatform 2.prefab
+  artifactKey: Guid(de2821ab3e02d8d4581afd94a652243e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/PLatform 2.prefab using Guid(de2821ab3e02d8d4581afd94a652243e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d163ef205002489e4c48c780c994cee') in 0.030504 seconds 
+  Import took 0.034760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Mountains Far.prefab
+  artifactKey: Guid(dc148a4ed425b6449b14cd7a8778dcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Mountains Far.prefab using Guid(dc148a4ed425b6449b14cd7a8778dcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d504ec151b5fb6757eedd1de08b24b') in 0.020857 seconds 
+  Import took 0.026016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Mountains MIddle.prefab
+  artifactKey: Guid(23152a7fbe758d44c8a0c77e1693f554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Prefabs/Mountains MIddle.prefab using Guid(23152a7fbe758d44c8a0c77e1693f554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208d8773ea0b9c190a233a3ec41cd60d') in 0.020765 seconds 
+  Import took 0.026808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.745200 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center left.png
+  artifactKey: Guid(602b79f0b6f1e254ebab0c7f24aee2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center left.png using Guid(602b79f0b6f1e254ebab0c7f24aee2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1419fcb8d662ccf027b95e29e205d242') in 0.032366 seconds 
+  Import took 0.038174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center.png
+  artifactKey: Guid(9be5ba129f842b140b10bf4e2310e434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center.png using Guid(9be5ba129f842b140b10bf4e2310e434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4a7213afb831b274ce3f094730ea15') in 0.019552 seconds 
+  Import took 0.025783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center_grass.png
+  artifactKey: Guid(5fc359dff544f5f4290ba25bab9fc9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center_grass.png using Guid(5fc359dff544f5f4290ba25bab9fc9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa230ca74b377b6f0422db95a5b7ca52') in 0.028341 seconds 
+  Import took 0.034161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right grass.png
+  artifactKey: Guid(a3204140dde5bc54e9b3071b858bb2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right grass.png using Guid(a3204140dde5bc54e9b3071b858bb2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fae6733d5402e83573327e8999cc20') in 0.024396 seconds 
+  Import took 0.030086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left.png
+  artifactKey: Guid(13870890b382d334ebe42f6140aa1dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left.png using Guid(13870890b382d334ebe42f6140aa1dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83abd3d1fafe29d5a4c7b04bd8b0c055') in 0.022486 seconds 
+  Import took 0.029948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center right.png
+  artifactKey: Guid(b83abd2c9e60c044e9d70ca7d6d45923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center right.png using Guid(b83abd2c9e60c044e9d70ca7d6d45923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9ff10367c65b2b0ac6b7245baddf45') in 0.024746 seconds 
+  Import took 0.030982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right_grass.png
+  artifactKey: Guid(70dea7fddd83c0d4f9beb5fcaea4ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right_grass.png using Guid(70dea7fddd83c0d4f9beb5fcaea4ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5c33a888c0aac5c32d0314dae8601f') in 0.023855 seconds 
+  Import took 0.031028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center.png
+  artifactKey: Guid(9df296fbda69cf4408ba1d513ea7d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center.png using Guid(9df296fbda69cf4408ba1d513ea7d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af847264dde49f8ff71e6f197f32a4b') in 0.029306 seconds 
+  Import took 0.036058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left_grass.png
+  artifactKey: Guid(ddc0b9e93b14e324ea9d92c078b54292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left_grass.png using Guid(ddc0b9e93b14e324ea9d92c078b54292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38a62b5c8a3fe4cf3ddcb09dea3df35') in 0.027158 seconds 
+  Import took 0.032308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000689 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left grass.png
+  artifactKey: Guid(a8429bb11bf44964687e221c17bfbc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left grass.png using Guid(a8429bb11bf44964687e221c17bfbc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255477263727e7c9deb7fee608c909d0') in 0.023319 seconds 
+  Import took 0.030096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left corner .png
+  artifactKey: Guid(a872fa2742e16f84da770781b58c9801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left corner .png using Guid(a872fa2742e16f84da770781b58c9801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67788670673ee86fa36a5d640bdc7228') in 0.023506 seconds 
+  Import took 0.029616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right corner  .png
+  artifactKey: Guid(b95ec376682d48b43a186e2e0d8c8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right corner  .png using Guid(b95ec376682d48b43a186e2e0d8c8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5aba740517d2888613ad566e787261') in 0.023818 seconds 
+  Import took 0.029116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/down.png
+  artifactKey: Guid(1395e2223e37bc048831fb3969e8a923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/down.png using Guid(1395e2223e37bc048831fb3969e8a923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0539cc6766770b72c0d3342298c25ce') in 0.025019 seconds 
+  Import took 0.032336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center grass.png
+  artifactKey: Guid(5f1c03fcc590c1f4a96215594fee3366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center grass.png using Guid(5f1c03fcc590c1f4a96215594fee3366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd63d2f419bed55300aa11869101795d') in 0.023909 seconds 
+  Import took 0.030039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right.png
+  artifactKey: Guid(0b0bb1540f69b2c489219c4dfbb6af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right.png using Guid(0b0bb1540f69b2c489219c4dfbb6af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b80dcde5556de1513507af69efe80a') in 0.023549 seconds 
+  Import took 0.030439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 172.478887 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center left.png
+  artifactKey: Guid(602b79f0b6f1e254ebab0c7f24aee2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center left.png using Guid(602b79f0b6f1e254ebab0c7f24aee2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a890d0adefa2bb79ee76212db4d14e1') in 0.028587 seconds 
+  Import took 0.034419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center.png
+  artifactKey: Guid(9be5ba129f842b140b10bf4e2310e434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center.png using Guid(9be5ba129f842b140b10bf4e2310e434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d001078c3f777cd128c754d910c57c') in 0.020297 seconds 
+  Import took 0.025275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center_grass.png
+  artifactKey: Guid(5fc359dff544f5f4290ba25bab9fc9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center_grass.png using Guid(5fc359dff544f5f4290ba25bab9fc9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705ad36193e92ab073eeb9d882435714') in 0.034970 seconds 
+  Import took 0.040967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right grass.png
+  artifactKey: Guid(a3204140dde5bc54e9b3071b858bb2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right grass.png using Guid(a3204140dde5bc54e9b3071b858bb2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9790dc75c0ba03bb266a4c8f1e4500') in 0.027292 seconds 
+  Import took 0.032510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left.png
+  artifactKey: Guid(13870890b382d334ebe42f6140aa1dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left.png using Guid(13870890b382d334ebe42f6140aa1dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4ed1fc02cbbc21d16c52c15ffabbb4') in 0.022579 seconds 
+  Import took 0.028438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center right.png
+  artifactKey: Guid(b83abd2c9e60c044e9d70ca7d6d45923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center right.png using Guid(b83abd2c9e60c044e9d70ca7d6d45923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2169e7bfdf294f3f9f3ab39cd874f6d') in 0.023939 seconds 
+  Import took 0.029734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right_grass.png
+  artifactKey: Guid(70dea7fddd83c0d4f9beb5fcaea4ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right_grass.png using Guid(70dea7fddd83c0d4f9beb5fcaea4ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2730da00d27296bec023aad8f3d02367') in 0.024469 seconds 
+  Import took 0.030625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center.png
+  artifactKey: Guid(9df296fbda69cf4408ba1d513ea7d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center.png using Guid(9df296fbda69cf4408ba1d513ea7d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa00e2253d518abb4843a49337a4e933') in 0.025728 seconds 
+  Import took 0.031757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left_grass.png
+  artifactKey: Guid(ddc0b9e93b14e324ea9d92c078b54292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left_grass.png using Guid(ddc0b9e93b14e324ea9d92c078b54292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1ba18fa9bbe3a80a8cde08fc1fe9cc') in 0.024417 seconds 
+  Import took 0.030641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left grass.png
+  artifactKey: Guid(a8429bb11bf44964687e221c17bfbc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left grass.png using Guid(a8429bb11bf44964687e221c17bfbc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996858121465afeaf39e57201e766a9f') in 0.025681 seconds 
+  Import took 0.032417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left corner .png
+  artifactKey: Guid(a872fa2742e16f84da770781b58c9801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left corner .png using Guid(a872fa2742e16f84da770781b58c9801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32126df6195ce6d1f426f129b103221') in 0.023892 seconds 
+  Import took 0.028896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right corner  .png
+  artifactKey: Guid(b95ec376682d48b43a186e2e0d8c8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right corner  .png using Guid(b95ec376682d48b43a186e2e0d8c8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2384543508b0190fd602c1db2ad65b71') in 0.021858 seconds 
+  Import took 0.027760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/down.png
+  artifactKey: Guid(1395e2223e37bc048831fb3969e8a923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/down.png using Guid(1395e2223e37bc048831fb3969e8a923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8703d77ca2912eb64d04d5031f8cd2e6') in 0.024527 seconds 
+  Import took 0.031216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center grass.png
+  artifactKey: Guid(5f1c03fcc590c1f4a96215594fee3366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center grass.png using Guid(5f1c03fcc590c1f4a96215594fee3366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6dd8648522595f562b5afeb80df260') in 0.021505 seconds 
+  Import took 0.027425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right.png
+  artifactKey: Guid(0b0bb1540f69b2c489219c4dfbb6af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right.png using Guid(0b0bb1540f69b2c489219c4dfbb6af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2d8358281d326b4f53e25610d93810') in 0.021454 seconds 
+  Import took 0.027042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 285.041166 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center left.png
+  artifactKey: Guid(602b79f0b6f1e254ebab0c7f24aee2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center left.png using Guid(602b79f0b6f1e254ebab0c7f24aee2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd484143bcb2ee3fccaca5edba458ec1b') in 0.026801 seconds 
+  Import took 0.034135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center.png
+  artifactKey: Guid(9be5ba129f842b140b10bf4e2310e434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center.png using Guid(9be5ba129f842b140b10bf4e2310e434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4444a517d6464177ad1439b608336c5a') in 0.019755 seconds 
+  Import took 0.024701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center_grass.png
+  artifactKey: Guid(5fc359dff544f5f4290ba25bab9fc9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center_grass.png using Guid(5fc359dff544f5f4290ba25bab9fc9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2282f5350210d4573bb2c8331139949') in 0.031304 seconds 
+  Import took 0.036878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right grass.png
+  artifactKey: Guid(a3204140dde5bc54e9b3071b858bb2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right grass.png using Guid(a3204140dde5bc54e9b3071b858bb2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affba1ebadf83637ccfa9b57fb683f3e') in 0.024927 seconds 
+  Import took 0.031045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left.png
+  artifactKey: Guid(13870890b382d334ebe42f6140aa1dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left.png using Guid(13870890b382d334ebe42f6140aa1dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d16e18d8bf457d7b74797bae1a84e3b') in 0.022975 seconds 
+  Import took 0.029172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center right.png
+  artifactKey: Guid(b83abd2c9e60c044e9d70ca7d6d45923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center right.png using Guid(b83abd2c9e60c044e9d70ca7d6d45923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc77c29098a27002b9b86691df9c15b') in 0.026625 seconds 
+  Import took 0.032326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right_grass.png
+  artifactKey: Guid(70dea7fddd83c0d4f9beb5fcaea4ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right_grass.png using Guid(70dea7fddd83c0d4f9beb5fcaea4ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95dc427291e629552751a20bc040123') in 0.026888 seconds 
+  Import took 0.032705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center.png
+  artifactKey: Guid(9df296fbda69cf4408ba1d513ea7d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/center.png using Guid(9df296fbda69cf4408ba1d513ea7d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1223e2bdcbeb4a7744be91b905add47d') in 0.027210 seconds 
+  Import took 0.033170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left_grass.png
+  artifactKey: Guid(ddc0b9e93b14e324ea9d92c078b54292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left_grass.png using Guid(ddc0b9e93b14e324ea9d92c078b54292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec21d00b9d2419e5504e6ede8c32e65') in 0.021732 seconds 
+  Import took 0.029059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left grass.png
+  artifactKey: Guid(a8429bb11bf44964687e221c17bfbc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform left grass.png using Guid(a8429bb11bf44964687e221c17bfbc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ffd861ffd699b8e0d6d776bd152b2b') in 0.022448 seconds 
+  Import took 0.029066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left corner .png
+  artifactKey: Guid(a872fa2742e16f84da770781b58c9801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/left corner .png using Guid(a872fa2742e16f84da770781b58c9801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23a803ebcfba59ad72cd24b628f3664') in 0.024360 seconds 
+  Import took 0.030189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right corner  .png
+  artifactKey: Guid(b95ec376682d48b43a186e2e0d8c8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/right corner  .png using Guid(b95ec376682d48b43a186e2e0d8c8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9939f1191d3a3b28e993fe6facbfb9dd') in 0.029727 seconds 
+  Import took 0.034930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/down.png
+  artifactKey: Guid(1395e2223e37bc048831fb3969e8a923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/down.png using Guid(1395e2223e37bc048831fb3969e8a923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5988f5a948d7238252fd2a8e1ddd10a') in 0.025988 seconds 
+  Import took 0.032177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center grass.png
+  artifactKey: Guid(5f1c03fcc590c1f4a96215594fee3366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform center grass.png using Guid(5f1c03fcc590c1f4a96215594fee3366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da4b4f234b94415c498d51fed384103') in 0.023549 seconds 
+  Import took 0.029413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right.png
+  artifactKey: Guid(0b0bb1540f69b2c489219c4dfbb6af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day/platform right.png using Guid(0b0bb1540f69b2c489219c4dfbb6af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3ae83ac50f4eb9fd65aa1c33d299c3') in 0.021664 seconds 
+  Import took 0.027310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 706.028111 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day
+  artifactKey: Guid(143327c04a70d8c41be4aa3e3edb9c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day using Guid(143327c04a70d8c41be4aa3e3edb9c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d62dc989112d62679fd2ced1b9a39a4') in 0.009457 seconds 
+  Import took 0.014778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.820933 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day
+  artifactKey: Guid(583ec3e46068f254091e2de55491ae75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Platform Blocks Day using Guid(583ec3e46068f254091e2de55491ae75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c813aae18d203165e91db10423182e') in 0.009901 seconds 
+  Import took 0.015444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.838149 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Day/Background Day
+  artifactKey: Guid(a891a52c42c853f4aa8f3e368c457b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Day/Background Day using Guid(a891a52c42c853f4aa8f3e368c457b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bc65a75bcb9686d91ca5cb52bc1147') in 0.008393 seconds 
+  Import took 0.014403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 950.176146 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Bunker.png
+  artifactKey: Guid(2dd68107357481a4cafd501465ef6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Bunker.png using Guid(2dd68107357481a4cafd501465ef6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344f6bb6ce1cd441f1f292a2688a264e') in 0.026417 seconds 
+  Import took 0.031340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.738561 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Bunker-removebg-preview.png
+  artifactKey: Guid(33f77bb70aaafc14eaf96eed9e577734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Bunker-removebg-preview.png using Guid(33f77bb70aaafc14eaf96eed9e577734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dd39ca35fdeef591a69b18fc9f6e06') in 0.039302 seconds 
+  Import took 0.045480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 915.142933 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night
+  artifactKey: Guid(45cc5f810f4f5e046882a64c372ac168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night using Guid(45cc5f810f4f5e046882a64c372ac168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30b99a81b3328041bae64307b86ccaf') in 0.009405 seconds 
+  Import took 0.014291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.814577 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night
+  artifactKey: Guid(a53773fc86258594e894260b66e01f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night using Guid(a53773fc86258594e894260b66e01f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc57c4ceb883be7786bb8ea4dd56d616') in 0.009340 seconds 
+  Import took 0.016632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.275673 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/center left.png
+  artifactKey: Guid(6ce0b57cdadc6524080b8f31412dadf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/center left.png using Guid(6ce0b57cdadc6524080b8f31412dadf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61768674fcc60f608066dbca183f3db1') in 0.026090 seconds 
+  Import took 0.030876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform left.png
+  artifactKey: Guid(a17302f6322ba2845a164f181dbceeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform left.png using Guid(a17302f6322ba2845a164f181dbceeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a47df5e76ba4eb8c3f900280d35b51') in 0.021616 seconds 
+  Import took 0.026645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform right.png
+  artifactKey: Guid(36eda49fd1130e84a94e9ba2064675dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform right.png using Guid(36eda49fd1130e84a94e9ba2064675dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9458f68f5700995129587cef77aef329') in 0.025627 seconds 
+  Import took 0.031576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/down.png
+  artifactKey: Guid(f7f944a160e863444bf7522c3dd1d80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/down.png using Guid(f7f944a160e863444bf7522c3dd1d80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d16838ddfec50ecc80b85b05cfeb6b') in 0.025193 seconds 
+  Import took 0.031302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/left_grass.png
+  artifactKey: Guid(8b45ef358ffa6994db1f9d70cc27e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/left_grass.png using Guid(8b45ef358ffa6994db1f9d70cc27e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fee0648e4d7d7d25777eae8a216258') in 0.027231 seconds 
+  Import took 0.033876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/center_grass.png
+  artifactKey: Guid(bc415c45a4e1a234fa893038db69fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/center_grass.png using Guid(bc415c45a4e1a234fa893038db69fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c059f26efb4fbc0fcc4bc0d3605b14b0') in 0.028323 seconds 
+  Import took 0.033807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/right_grass.png
+  artifactKey: Guid(dd2b543cc6c4a1b4a9a4fb37ac676166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/right_grass.png using Guid(dd2b543cc6c4a1b4a9a4fb37ac676166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f67c109f51211fbd23ee73ee6c34bc') in 0.022223 seconds 
+  Import took 0.027064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/center right.png
+  artifactKey: Guid(ec03b7e46f926294e8204be0f885ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/center right.png using Guid(ec03b7e46f926294e8204be0f885ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519c062db17c3d7936037b33cfddee0f') in 0.026250 seconds 
+  Import took 0.031314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform left grass.png
+  artifactKey: Guid(4f60a1a648f7d4e438b4ab4c859e49f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform left grass.png using Guid(4f60a1a648f7d4e438b4ab4c859e49f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c7e1858cc05c596d968cf3dc0ed61f') in 0.021567 seconds 
+  Import took 0.028179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform center.png
+  artifactKey: Guid(d1cb25eb819ea7f439f4557f0523184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform center.png using Guid(d1cb25eb819ea7f439f4557f0523184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a137de8b1b5353a306a46bc7f7bad7') in 0.022967 seconds 
+  Import took 0.028193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/right corner  .png
+  artifactKey: Guid(4091b8a1116df474586c45b5d8e4a00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/right corner  .png using Guid(4091b8a1116df474586c45b5d8e4a00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb691cc798863cea6f4f6bd4f8118fe') in 0.027200 seconds 
+  Import took 0.033066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/left corner .png
+  artifactKey: Guid(c0ce7c61bf5962142ba7f0297180d613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/left corner .png using Guid(c0ce7c61bf5962142ba7f0297180d613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e060eaa9290450a084c45adcdf1a08') in 0.021173 seconds 
+  Import took 0.026881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/center.png
+  artifactKey: Guid(07562a25118bc20418995f6cfa590397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/center.png using Guid(07562a25118bc20418995f6cfa590397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808fd1c17d63fd22f8daf65d05a624b6') in 0.027010 seconds 
+  Import took 0.033034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform center grass.png
+  artifactKey: Guid(5608e0a354db3d64580563b6643058ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform center grass.png using Guid(5608e0a354db3d64580563b6643058ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0fd65ba2891613a6c20fd184de5075') in 0.024263 seconds 
+  Import took 0.029178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform right grass.png
+  artifactKey: Guid(896fddf922595704db39cb29829f4c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Platform Blocks Night/platform right grass.png using Guid(896fddf922595704db39cb29829f4c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e87c961b5a28abfa731a99e065e775') in 0.019870 seconds 
+  Import took 0.025761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.662280 seconds.
+  path: Assets/2D Forest Tileset Pack Toon Style/Night/Example Scene
+  artifactKey: Guid(d55a6e871fee1334aa80a36cdbfc7627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Forest Tileset Pack Toon Style/Night/Example Scene using Guid(d55a6e871fee1334aa80a36cdbfc7627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f08d286c3b117ac6979dbbb1bdd65c') in 0.004256 seconds 
+  Import took 0.010113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 964.411508 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks
+  artifactKey: Guid(89d20555ffe14e04abea331de0470058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks using Guid(89d20555ffe14e04abea331de0470058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c90c6b28c4b8ae973a3ca48b2b6497f') in 0.009061 seconds 
+  Import took 0.014616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084089 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-01.png
+  artifactKey: Guid(d9b8dfbb10ebedb4d98a0b24268523c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-01.png using Guid(d9b8dfbb10ebedb4d98a0b24268523c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1af70ece892edb146e7bfefd4bebed0') in 0.030684 seconds 
+  Import took 0.036744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-01.png
+  artifactKey: Guid(e266c29e17b61684fa9f78a108268b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-01.png using Guid(e266c29e17b61684fa9f78a108268b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91d3ef325e132cc1c157ac855461a3b') in 0.029062 seconds 
+  Import took 0.034121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-02.png
+  artifactKey: Guid(e7055d889a34dfd48b43ac75b7e1b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-02.png using Guid(e7055d889a34dfd48b43ac75b7e1b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dec429dd04af61a5fd29530fd51cac4') in 0.023974 seconds 
+  Import took 0.029228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-04.png
+  artifactKey: Guid(3286049c5ba08934bb60e09f9b8611c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-04.png using Guid(3286049c5ba08934bb60e09f9b8611c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e1701e18cc188a8192ac7278c5e96f') in 0.026306 seconds 
+  Import took 0.032296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-08.png
+  artifactKey: Guid(6e3cb40d5dfda4146b912d977c0616aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-08.png using Guid(6e3cb40d5dfda4146b912d977c0616aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93915e227b183422fd3bbb0ef37f2a08') in 0.025012 seconds 
+  Import took 0.031410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-09.png
+  artifactKey: Guid(9675609ab6dcdb94db2bd72719e39fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-09.png using Guid(9675609ab6dcdb94db2bd72719e39fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311d303c3b5a5ce475349ad13c3eb82a') in 0.032178 seconds 
+  Import took 0.038296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-04.png
+  artifactKey: Guid(9475a4796ab676345a808dfe2b305df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-04.png using Guid(9475a4796ab676345a808dfe2b305df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d231955dfd027c482290365508f78b') in 0.029610 seconds 
+  Import took 0.035922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-08.png
+  artifactKey: Guid(46d5c2efdf5cb944c919965a73807397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-08.png using Guid(46d5c2efdf5cb944c919965a73807397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369322e2717ebef989e24394b447a850') in 0.027803 seconds 
+  Import took 0.033250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-07.png
+  artifactKey: Guid(3e27c65452c315b4eb9331aea0539c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-07.png using Guid(3e27c65452c315b4eb9331aea0539c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e68ee8847843ad8fe96f437ee70276') in 0.025081 seconds 
+  Import took 0.031106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-06.png
+  artifactKey: Guid(a4e70eccb1b9d9241b46bd5692fbe0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-06.png using Guid(a4e70eccb1b9d9241b46bd5692fbe0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533ac65c8f1508e5948ddc8cefecbab9') in 0.026781 seconds 
+  Import took 0.032881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-05.png
+  artifactKey: Guid(2bb2cbc5b3e3bfd48801156a28986337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-05.png using Guid(2bb2cbc5b3e3bfd48801156a28986337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8b608411ef7c784a1e8c82339b10c4') in 0.026990 seconds 
+  Import took 0.032254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-06.png
+  artifactKey: Guid(894d77d9fa032ae43bb1134b9a404ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-06.png using Guid(894d77d9fa032ae43bb1134b9a404ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaa86a2080db0a26af7023420597a26') in 0.025308 seconds 
+  Import took 0.031498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-07.png
+  artifactKey: Guid(abe7b7d2f022d0d4797f07bc412dde6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-07.png using Guid(abe7b7d2f022d0d4797f07bc412dde6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f337e447f0d39a0afb0de7ee7c713fc9') in 0.025542 seconds 
+  Import took 0.031570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-03.png
+  artifactKey: Guid(f5b0ea2a02fcd16468902c80a62df2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-03.png using Guid(f5b0ea2a02fcd16468902c80a62df2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4ffbf51599b9331f373f89449adc42') in 0.024696 seconds 
+  Import took 0.030390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-03.png
+  artifactKey: Guid(e134fff17a4cce742aa0a5be5c1103bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-03.png using Guid(e134fff17a4cce742aa0a5be5c1103bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9887b65a51846fe6b33d4ba25504077') in 0.023096 seconds 
+  Import took 0.028869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-05.png
+  artifactKey: Guid(48c2c72ef046a234992427ddc2e87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-05.png using Guid(48c2c72ef046a234992427ddc2e87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e33be230bafce7f713dfba6f8aed68') in 0.024115 seconds 
+  Import took 0.030252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-09.png
+  artifactKey: Guid(043e06644078a694580a86ffbd77555d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-09.png using Guid(043e06644078a694580a86ffbd77555d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afcf932371766f3d971cd5585f1e20f') in 0.027367 seconds 
+  Import took 0.032982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-02.png
+  artifactKey: Guid(0b8cc59e403c82e4f9a7ee67cd1cbc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-02.png using Guid(0b8cc59e403c82e4f9a7ee67cd1cbc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd041532fe0ce85dc54c3e27c5d49adab') in 0.021627 seconds 
+  Import took 0.027209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.079396 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-01.png
+  artifactKey: Guid(4eece71c3a37eef43acc342a9b51d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-01.png using Guid(4eece71c3a37eef43acc342a9b51d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a85cb89250e274978aa847748072a5') in 0.029997 seconds 
+  Import took 0.034464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-03.png
+  artifactKey: Guid(e5b77fd8c1eeef548a38ff8071858e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-03.png using Guid(e5b77fd8c1eeef548a38ff8071858e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e94a84f699e627e31747b61b88e359') in 0.069315 seconds 
+  Import took 0.074379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-11.png
+  artifactKey: Guid(77cbe02274c59954f8d244c371e94acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-11.png using Guid(77cbe02274c59954f8d244c371e94acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f023ac7881079f395683d70e9bd9562') in 0.030625 seconds 
+  Import took 0.035539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-14.png
+  artifactKey: Guid(f278a725bc7551d4694c44127ac6c2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-14.png using Guid(f278a725bc7551d4694c44127ac6c2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44ad7fc5331ceec97e5f5edd566f106') in 0.044209 seconds 
+  Import took 0.049552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-02.png
+  artifactKey: Guid(bedf0b62ebf6a8a48bb84ec87c482ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-02.png using Guid(bedf0b62ebf6a8a48bb84ec87c482ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a5488f60f1eb5775fce2e85e9081f8') in 0.035568 seconds 
+  Import took 0.040976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-10.png
+  artifactKey: Guid(5b0c9c1ff5d9cfa40ae100112e6d6792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-10.png using Guid(5b0c9c1ff5d9cfa40ae100112e6d6792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf87281885a42fbf9caa421e91d1788') in 0.034839 seconds 
+  Import took 0.040308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-15.png
+  artifactKey: Guid(25a64218999aeab46a856ffecf95300f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-15.png using Guid(25a64218999aeab46a856ffecf95300f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5629d5bcd2e8e20b32e5fc57098525e7') in 0.030553 seconds 
+  Import took 0.036378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-13.png
+  artifactKey: Guid(c592ffdaa200dad43b215408380a2930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-13.png using Guid(c592ffdaa200dad43b215408380a2930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10ebcc915d52a29f9ed88700536ef04') in 0.039089 seconds 
+  Import took 0.044967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-06.png
+  artifactKey: Guid(ae8f9e913c02ede48bd69bd7105fc325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-06.png using Guid(ae8f9e913c02ede48bd69bd7105fc325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee435bf8f66c7dd1aa451609ef557cc') in 0.040261 seconds 
+  Import took 0.044880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-04.png
+  artifactKey: Guid(92070f02a05d46c419bf6baa26dbab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-04.png using Guid(92070f02a05d46c419bf6baa26dbab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f21e673ec525e968850d645474b1e44') in 0.061510 seconds 
+  Import took 0.067918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-12.png
+  artifactKey: Guid(d68f6bbe944c4a144adf6384946e5ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-12.png using Guid(d68f6bbe944c4a144adf6384946e5ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b957238ff319dce8a1554c1b1cec8258') in 0.038074 seconds 
+  Import took 0.042569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-05.png
+  artifactKey: Guid(c42a5d0507e7c2847b7026aac02ec944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-05.png using Guid(c42a5d0507e7c2847b7026aac02ec944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6788167d6295cde14871a4b11a4e4d9') in 0.036626 seconds 
+  Import took 0.041774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-09.png
+  artifactKey: Guid(991445a5d977c5e49b1665e8b9d6646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-09.png using Guid(991445a5d977c5e49b1665e8b9d6646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d48cb490a62e4346989cf2a3f23f39a') in 0.035478 seconds 
+  Import took 0.041559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-08.png
+  artifactKey: Guid(926bb9fbf73f90a4db157871d10c57a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-08.png using Guid(926bb9fbf73f90a4db157871d10c57a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b48473cf40a70b01646f610392c9de1') in 0.044274 seconds 
+  Import took 0.049367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-07.png
+  artifactKey: Guid(ca89abfb720cfa24199404286c8cf88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-details/platform-detail-07.png using Guid(ca89abfb720cfa24199404286c8cf88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99bf783f1d7c7e9e9cac85ee60f590c') in 0.036580 seconds 
+  Import took 0.040681 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
