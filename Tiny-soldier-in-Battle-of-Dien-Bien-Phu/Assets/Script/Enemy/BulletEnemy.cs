@@ -29,9 +29,9 @@ public class BulletEnemy : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
 
-            //GameObject enemy = collision.gameObject;
-            //HealthEnemy hd = enemy.GetComponent<HealthEnemy>();
-            //hd.TakeDamge(damage);
+            GameObject player = collision.gameObject;
+            HealthPlayer hd = player.GetComponent<HealthPlayer>();
+            hd.TakeDamge(damage);
             Destroy(gameObject);
         }
     }

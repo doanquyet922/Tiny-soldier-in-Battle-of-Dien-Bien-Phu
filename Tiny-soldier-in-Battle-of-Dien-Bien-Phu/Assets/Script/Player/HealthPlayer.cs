@@ -2,30 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthEnemy : MonoBehaviour
+public class HealthPlayer : MonoBehaviour
 {
-    
-    public int maxHealth = 100;
+    public int  maxHealth = 100;
     public int curentHealth;
     Animator animator;
     Collider2D collider;
     public HealthBar healthBar;
-    public bool isDied = false;
+    //public bool isDied = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+
         animator = this.GetComponent<Animator>();
         collider = this.GetComponent<Collider2D>();
         curentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public void TakeDamge(int dame)
     {
@@ -41,22 +40,22 @@ public class HealthEnemy : MonoBehaviour
     {
         if (this.animator && this.collider)
         {
-            isDied = true;
+            //isDied = true;
             this.animator.SetTrigger("die");
-            this.collider.enabled = false;
-            
-            StartCoroutine(DestroyEnemyDie());
+            //this.collider.enabled = false;
+
+            //StartCoroutine(DestroyEnemyDie());
         }
-        
-        
-        
-        
+
+
+
+
     }
     IEnumerator DestroyEnemyDie()
     {
         yield return new WaitForSeconds(3);
         Destroy(this.gameObject);
     }
-   
+
 
 }

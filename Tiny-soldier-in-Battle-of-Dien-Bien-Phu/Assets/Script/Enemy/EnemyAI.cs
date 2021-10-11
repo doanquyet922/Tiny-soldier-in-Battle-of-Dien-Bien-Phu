@@ -11,7 +11,7 @@ public class EnemyAI : MonoBehaviour
     public float moveSpeed = 0f;
     public float maxMove = 0f;
     public float minMove = 0f;
-    public WeaponController shooting;
+    //public WeaponController shooting;
     public Collider2D topCollider;
     Rigidbody2D rb;
     HealthEnemy he;
@@ -24,6 +24,7 @@ public class EnemyAI : MonoBehaviour
     float timeUnitFire;
     float timeCouch = 1f;
     float timeUnitCouch;
+    bool m_CheckShoot = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,7 +54,7 @@ public class EnemyAI : MonoBehaviour
             //}
             ChasePlayer();
             animator.SetBool("shoot", true);
-            if(timeUnitFire < Time.time)
+            if(timeUnitFire < Time.time && m_CheckShoot==true)
             {
                 this.StartCoroutine(Shoot());
             }
@@ -63,6 +64,7 @@ public class EnemyAI : MonoBehaviour
         else
         {
             animator.SetBool("shoot", false);
+            m_CheckShoot = false;
             StopChasingPlayer();
             StopAllCoroutines();
             //if (distToPlayer > agroRange)
@@ -144,5 +146,9 @@ public class EnemyAI : MonoBehaviour
         Instantiate(bulletPrefab, this.FirePoint.position, Quaternion.Euler(new Vector3(0, 0, angle)));
         yield return new WaitForSeconds(fireRate);
         //StartCoroutine(Shoot());
+    }
+    public void SetCheckShootTrue()
+    {
+        m_CheckShoot = true;
     }
 }

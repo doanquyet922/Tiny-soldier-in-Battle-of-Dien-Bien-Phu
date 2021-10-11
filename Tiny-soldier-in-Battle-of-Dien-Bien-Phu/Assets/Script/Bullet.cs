@@ -34,5 +34,6 @@ public class Bullet : MonoBehaviour
             hd.TakeDamge(damage);
             Destroy(gameObject);
         }
+        
     }
 }

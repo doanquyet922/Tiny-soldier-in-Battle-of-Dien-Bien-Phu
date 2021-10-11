@@ -12,6 +12,9 @@ public class WeaponController : MonoBehaviour
     float timeUnitFire;
     CharacterController2D pm;
 
+    public AudioSource aus;
+    public AudioClip auc_shoot;
+    bool m_CheckShoot = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,17 +25,30 @@ public class WeaponController : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetButtonDown("Fire1") && timeUnitFire < Time.time)
+        if (Input.GetButtonDown("Fire1")  )
         {
             animator.SetBool("shoot", true);
+                        
+        }
+        if (m_CheckShoot == true && timeUnitFire < Time.time)
+        {
             StartCoroutine(Shoot());
             timeUnitFire = Time.time + fireRate;
         }
         if (Input.GetButtonUp("Fire1"))
         {
             animator.SetBool("shoot", false);
+            
+            
+
+        }
+        if (animator.GetBool("shoot") == false)
+        {
+            m_CheckShoot = false;
             StopAllCoroutines();
         }
+        Debug.Log(m_CheckShoot);
+       
     }
 
     private IEnumerator Shoot()
@@ -40,7 +56,12 @@ public class WeaponController : MonoBehaviour
 
         float angle = pm.m_FacingRight ? 0f : 180f;
         Instantiate(bulletPrefab, FirePoint.position, Quaternion.Euler(new Vector3(0, 0, angle)));
+        aus.PlayOneShot(auc_shoot);
         yield return new WaitForSeconds(fireRate);
         StartCoroutine(Shoot());
+    }
+    public void SetCheckShootTrue()
+    {
+        m_CheckShoot = true;
     }
 }
