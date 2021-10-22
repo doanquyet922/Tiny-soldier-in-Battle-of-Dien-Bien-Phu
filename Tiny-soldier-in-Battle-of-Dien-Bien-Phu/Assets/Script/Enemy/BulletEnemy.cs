@@ -7,7 +7,7 @@ public class BulletEnemy : MonoBehaviour
     public float speed = 20f;
     public Rigidbody2D rb;
     public int damage = 20;
-
+    public GameObject explosive;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +25,11 @@ public class BulletEnemy : MonoBehaviour
         if (collision.CompareTag("LimitBullet") || collision.CompareTag("Ground"))
         {
             Destroy(gameObject);
+            if (explosive)
+            {
+                GameObject e = Instantiate(explosive, transform.position, Quaternion.identity);
+                Destroy(e, 1);
+            }
         }
         if (collision.CompareTag("Player"))
         {
@@ -32,6 +37,11 @@ public class BulletEnemy : MonoBehaviour
             GameObject player = collision.gameObject;
             HealthPlayer hd = player.GetComponent<HealthPlayer>();
             hd.TakeDamge(damage);
+            if (explosive)
+            {
+                GameObject e = Instantiate(explosive, transform.position, Quaternion.identity);
+                Destroy(e, 1);
+            }
             Destroy(gameObject);
         }
     }
