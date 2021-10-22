@@ -573,7 +573,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.32084656, y: -0.14583993}
@@ -604,6 +604,7 @@ MonoBehaviour:
   speed: 20
   rb: {fileID: 537568724}
   rd: {fileID: 8034277594163343733}
+  explosive: {fileID: 0}
 --- !u!114 &727580756
 MonoBehaviour:
   m_ObjectHideFlags: 0
