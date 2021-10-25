@@ -39,9 +39,10 @@ public class HealthEnemy : MonoBehaviour
     }
     public void Die()
     {
+        isDied = true;
         if (this.animator && this.collider)
         {
-            isDied = true;
+            
             this.animator.SetTrigger("die");
             this.collider.enabled = false;
             

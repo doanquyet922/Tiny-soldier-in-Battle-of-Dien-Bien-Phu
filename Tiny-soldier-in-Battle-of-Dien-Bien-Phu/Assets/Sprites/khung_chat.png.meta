@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: c166937d2b8669e4abddd2b870b3c330
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5027336804697622310
+    second: khung_chat_0
+  - first:
+      213: -1964554543975829367
+    second: khung_chat_1
+  - first:
+      213: 6183884837427793842
+    second: khung_chat_2
+  - first:
+      213: -8072364590359783553
+    second: khung_chat_3
+  - first:
+      213: 1295405398938472254
+    second: khung_chat_4
+  - first:
+      213: -2558295464440883870
+    second: khung_chat_5
+  - first:
+      213: -5643474417114960210
+    second: khung_chat_6
+  - first:
+      213: 1040245829292697091
+    second: khung_chat_7
+  - first:
+      213: 1472916793943501180
+    second: khung_chat_8
+  - first:
+      213: 1828660248352634253
+    second: khung_chat_9
+  - first:
+      213: 6539693041054419640
+    second: khung_chat_10
+  - first:
+      213: -6999747526251657345
+    second: khung_chat_11
+  - first:
+      213: 6935893985074232767
+    second: khung_chat_12
+  - first:
+      213: -3189072520840376051
+    second: khung_chat_13
+  - first:
+      213: -1173487515774716437
+    second: khung_chat_14
+  - first:
+      213: -7396402401218411737
+    second: khung_chat_15
+  - first:
+      213: -1547910736541454266
+    second: khung_chat_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: khung_chat_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 939
+        width: 195
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad830c5efcf4b3ab0800000000000000
+      internalID: -5027336804697622310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_1
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 919
+        width: 267
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980f0780d008cb4e0800000000000000
+      internalID: -1964554543975829367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_2
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 939
+        width: 258
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfcecafe7291d550800000000000000
+      internalID: 6183884837427793842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 641
+        width: 248
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77d92e9c2339ff80800000000000000
+      internalID: -8072364590359783553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_4
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 617
+        width: 238
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fc9d3d8543af110800000000000000
+      internalID: 1295405398938472254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_5
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 648
+        width: 257
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265128b54db1f7cd0800000000000000
+      internalID: -2558295464440883870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 349
+        width: 252
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeabd40be95ea1b0800000000000000
+      internalID: -5643474417114960210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_7
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 333
+        width: 225
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306a21ef112bf6e00800000000000000
+      internalID: 1040245829292697091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_8
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 400
+        width: 198
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79a5be250ad07410800000000000000
+      internalID: 1472916793943501180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_9
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 407
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85bfe5aec4b06910800000000000000
+      internalID: 1828660248352634253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_10
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 391
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba842c0c28a1ca50800000000000000
+      internalID: 6539693041054419640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 106
+        width: 210
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77c95c06b6ebde90800000000000000
+      internalID: -6999747526251657345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_12
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 113
+        width: 268
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd3e1cd4de314060800000000000000
+      internalID: 6935893985074232767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_13
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 135
+        width: 185
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01995050732eb3d0800000000000000
+      internalID: -3189072520840376051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_14
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 33
+        width: 113
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be574e1625fe6bfe0800000000000000
+      internalID: -1173487515774716437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_15
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 39
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723c7833433ba5990800000000000000
+      internalID: -7396402401218411737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung_chat_16
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 39
+        width: 57
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640fe64e267b48ae0800000000000000
+      internalID: -1547910736541454266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

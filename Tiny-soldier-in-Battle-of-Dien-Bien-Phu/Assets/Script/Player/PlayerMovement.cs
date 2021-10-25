@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     float m_movehorizontal = 0f;
     public Rigidbody2D rb;
     bool m_isJump = false, m_isCrouch = false;
-
+    public bool enable = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,31 +20,34 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        m_movehorizontal = Input.GetAxisRaw("Horizontal") * speed;
-        animator.SetFloat("speed", Mathf.Abs(m_movehorizontal));
-        if (Input.GetButtonDown("Jump"))
+        if (enable == true)
         {
-           
-            if (m_isCrouch == false)
+            m_movehorizontal = Input.GetAxisRaw("Horizontal") * speed;
+            animator.SetFloat("speed", Mathf.Abs(m_movehorizontal));
+            if (Input.GetButtonDown("Jump"))
             {
-                m_isJump = true;
-                animator.SetBool("jump", true);
-            }
-            
-            
-        }
-        if (Input.GetButtonDown("Crouch"))
-        {
-            m_isCrouch = true;
-            animator.SetBool("crouch",true);
-            rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
 
-        }
-        if(Input.GetButtonUp("Crouch"))
-        {
-            m_isCrouch = false;
-            animator.SetBool("crouch", false);
-            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+                if (m_isCrouch == false)
+                {
+                    m_isJump = true;
+                    animator.SetBool("jump", true);
+                }
+
+
+            }
+            if (Input.GetButtonDown("Crouch"))
+            {
+                m_isCrouch = true;
+                animator.SetBool("crouch", true);
+                rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+
+            }
+            if (Input.GetButtonUp("Crouch"))
+            {
+                m_isCrouch = false;
+                animator.SetBool("crouch", false);
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+            }
         }
         
     }
