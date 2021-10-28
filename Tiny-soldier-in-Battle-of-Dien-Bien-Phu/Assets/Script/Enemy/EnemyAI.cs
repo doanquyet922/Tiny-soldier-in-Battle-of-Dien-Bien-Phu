@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
 
-     Animator animator;
+    Animator animator;
     public GameObject player;
     public float agroRange = 0f;
     public float moveSpeed = 0f;
@@ -17,7 +17,7 @@ public class EnemyAI : MonoBehaviour
     HealthEnemy he;
     public bool faceRight = true;
 
-    
+
     public Transform FirePoint;
     public GameObject bulletPrefab;
     public float fireRate = 0.2f;
@@ -25,61 +25,65 @@ public class EnemyAI : MonoBehaviour
     float timeCouch = 1f;
     float timeUnitCouch;
     bool m_CheckShoot = false;
+
+    public bool onMove = true;
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
         animator = this.GetComponent<Animator>();
         he = GetComponent<HealthEnemy>();
-        
+
 
     }
-    
+
     // Update is called once per frame
     void Update()
     {
-        
-        if (timeUnitCouch < Time.time)
-        {
-           
-            Crouch();
-        }
-        float distToPlayer = Vector2.Distance(transform.position, player.transform.position);
 
-        if (distToPlayer < agroRange &&  he.isDied==false)
+        if (onMove == true)
         {
-            //if (animator.GetBool("isWakeup") == false)
-            //{
-            //    animator.SetBool("isWakeup", true);
-            //}
-            ChasePlayer();
-            animator.SetBool("shoot", true);
-            if(timeUnitFire < Time.time && m_CheckShoot==true)
-            {
-                this.StartCoroutine(Shoot());
-            }
-            
-            //shooting.SetShooting(true);
+            Move();
         }
         else
         {
-            animator.SetBool("shoot", false);
-            m_CheckShoot = false;
-            StopChasingPlayer();
-            StopAllCoroutines();
-            //if (distToPlayer > agroRange)
-            //{
-            //    StartCoroutine(SetSleep());
-            //    //shooting.SetShooting(false);
-            //}
+            rb.velocity = Vector2.zero;
+            animator.SetFloat("speed",0);
+            if (timeUnitCouch < Time.time)
+            {
+
+                Crouch();
+            }
+            float distToPlayer = Vector2.Distance(transform.position, player.transform.position);
+
+            if (distToPlayer < agroRange && he.isDied == false)
+            {
+                ChasePlayer();
+                animator.SetBool("shoot", true);
+                if (timeUnitFire < Time.time && m_CheckShoot == true)
+                {
+                    this.StartCoroutine(Shoot());
+                }
+
+                
+            }
+            else
+            {
+                animator.SetBool("shoot", false);
+                m_CheckShoot = false;
+                StopChasingPlayer();
+                StopAllCoroutines();
+               
 
 
 
+            }
         }
     }
-    
+
     private void StopChasingPlayer()
-    {rb.velocity = new Vector2(0, 0);
+    {
+        rb.velocity = new Vector2(0, 0);
     }
 
     private void ChasePlayer()
@@ -90,7 +94,7 @@ public class EnemyAI : MonoBehaviour
             //rb.velocity = new Vector2(moveSpeed, 0);
             faceRight = true;
             transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
-            
+
 
         }
         else
@@ -102,7 +106,7 @@ public class EnemyAI : MonoBehaviour
                 faceRight = false;
                 transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
             }
-               
+
         }
     }
     //IEnumerator SetSleep()
@@ -120,22 +124,22 @@ public class EnemyAI : MonoBehaviour
     void Crouch()
     {
 
-         timeUnitCouch = Time.time + timeCouch;
+        timeUnitCouch = Time.time + timeCouch;
         CharacterController2D ct = player.GetComponent<CharacterController2D>();
-            if (ct.m_wasCrouching == true && he.isDied == false)
-            {
+        if (ct.m_wasCrouching == true && he.isDied == false)
+        {
 
-                animator.SetBool("crouch", true);
-                topCollider.enabled = false;
+            animator.SetBool("crouch", true);
+            topCollider.enabled = false;
 
-            }
-            else
-            {
-                animator.SetBool("crouch", false);
-                topCollider.enabled = true;
-            }
-          
-        
+        }
+        else
+        {
+            animator.SetBool("crouch", false);
+            topCollider.enabled = true;
+        }
+
+
         //StartCoroutine(Crouch());
 
     }
@@ -150,5 +154,37 @@ public class EnemyAI : MonoBehaviour
     public void SetCheckShootTrue()
     {
         m_CheckShoot = true;
+    }
+    public void Move()
+    {
+
+        {
+            animator.SetBool("shoot",false);
+            animator.SetFloat("speed", 2);
+            if (faceRight == true)
+            {
+                rb.velocity = Vector2.right * moveSpeed;
+                transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
+
+            }
+            else
+            {
+                rb.velocity = Vector2.right * -moveSpeed;
+                if (transform.localScale.x > 0)
+                {
+                    faceRight = false;
+                    transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+                }
+            }
+            if (transform.position.x > maxMove)
+            {
+                faceRight = false;
+            }
+            else if (transform.position.x < minMove)
+            {
+                faceRight = true;
+            }
+
+        }
     }
 }

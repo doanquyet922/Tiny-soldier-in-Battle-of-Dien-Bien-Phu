@@ -604,7 +604,7 @@ MonoBehaviour:
   speed: 20
   rb: {fileID: 537568724}
   rd: {fileID: 8034277594163343733}
-  explosive: {fileID: 0}
+  explosive: {fileID: 2019700024486949950, guid: 0e80ba21f31573541bbb0ef1930ad62e, type: 3}
 --- !u!114 &727580756
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -43,9 +43,10 @@ public class Plane : MonoBehaviour
         }
         if (collision.CompareTag("Ground"))
         {
-           
+            
             if (explosive)
             {
+                
                 GameObject e = Instantiate(explosive, transform.position, Quaternion.identity);
                 Destroy(e, 1); 
                 
