@@ -47,7 +47,7 @@ public class WeaponController : MonoBehaviour
             m_CheckShoot = false;
             StopAllCoroutines();
         }
-        Debug.Log(m_CheckShoot);
+        
        
     }
 

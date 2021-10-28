@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 187767982}
   m_Layer: 0
   m_Name: PlaneCheck
-  m_TagString: Untagged
+  m_TagString: PlaneCheck
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +44,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 30.385199}
+  m_Offset: {x: 0, y: 37.850494}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -55,7 +55,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 42.04861}
+  m_Size: {x: 1, y: 56.979202}
   m_EdgeRadius: 0
 --- !u!1 &225834826
 GameObject:
@@ -7668,6 +7668,7 @@ MonoBehaviour:
   animator: {fileID: 174943635074568804}
   speed: 40
   rb: {fileID: 1663612490}
+  enable: 1
 --- !u!114 &4501294294595370700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7680,8 +7681,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06486430f68071f45b7681cfa9c6011a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  isDied: 0
+  maxHealth: 500
+  curentHealth: 0
+  healthBar: {fileID: 0}
 --- !u!70 &1335501700
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
