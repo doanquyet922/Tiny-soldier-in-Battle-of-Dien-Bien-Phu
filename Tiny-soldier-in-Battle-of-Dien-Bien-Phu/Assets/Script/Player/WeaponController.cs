@@ -38,9 +38,6 @@ public class WeaponController : MonoBehaviour
         if (Input.GetButtonUp("Fire1"))
         {
             animator.SetBool("shoot", false);
-            
-            
-
         }
         if (animator.GetBool("shoot") == false)
         {
