@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager ins;
     public static bool GameIsPause;
+    public static bool GameIsOver;
     public GameObject PauseMenuUI;
     public GameObject SettingMenuUI;
+    public GameObject GameOverUI;
+    public GameObject GameWinUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +25,9 @@ public class GameManager : MonoBehaviour
     }
     public void GameWin()
     {
-        Debug.Log("Win");
+        
+        GameWinUI.SetActive(true);
+
     }
     void Ins()
     {
@@ -49,10 +55,26 @@ public class GameManager : MonoBehaviour
     public void Menu()
     {
         Time.timeScale = 1f;
-        Debug.Log("Load Menu");
+        SceneManager.LoadScene(0);
     }
     public void Exit()
     {
         Application.Quit();
+    }
+    public void ShowGameOver()
+    {
+        Time.timeScale = 0f;
+        GameIsOver = true;
+        GameOverUI.SetActive(true);
+
+    }
+    public void Replay()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    public void PlayGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 }

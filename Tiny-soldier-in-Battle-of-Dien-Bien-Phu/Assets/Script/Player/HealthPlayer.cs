@@ -42,9 +42,7 @@ public class HealthPlayer : MonoBehaviour
         {
             //isDied = true;
             this.animator.SetTrigger("die");
-            //this.collider.enabled = false;
-
-            //StartCoroutine(DestroyEnemyDie());
+            StartCoroutine(ShowGameOver());
         }
 
 
@@ -57,5 +55,10 @@ public class HealthPlayer : MonoBehaviour
         Destroy(this.gameObject);
     }
 
+    IEnumerator ShowGameOver()
+    {
 
+        yield return new WaitForSeconds(2);
+        GameManager.ins.ShowGameOver();
+    }
 }

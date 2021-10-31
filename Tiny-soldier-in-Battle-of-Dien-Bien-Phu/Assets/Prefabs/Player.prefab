@@ -87,6 +87,53 @@ Transform:
   m_Father: {fileID: 6440295396681837945}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1771802915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1771802916}
+  - component: {fileID: 1771802917}
+  m_Layer: 0
+  m_Name: Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1771802916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771802915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8314530654655859203}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1771802917
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771802915}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.020999908, y: 10.458028}
+  m_Size: {x: 1.4660008, y: 2.5960078}
+  m_Direction: 0
 --- !u!1 &124493964383168785
 GameObject:
   m_ObjectHideFlags: 0
@@ -7156,7 +7203,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8314530654655859203}
-  - component: {fileID: 7263266710296413728}
   - component: {fileID: 6523053070611630260}
   - component: {fileID: 174943635074568804}
   - component: {fileID: 946737656}
@@ -7165,7 +7211,6 @@ GameObject:
   - component: {fileID: 3568383280164533027}
   - component: {fileID: 1224521234580597296}
   - component: {fileID: 4501294294595370700}
-  - component: {fileID: 1335501700}
   - component: {fileID: 6237228580883918050}
   m_Layer: 0
   m_Name: Player
@@ -7189,342 +7234,10 @@ Transform:
   - {fileID: 5565789722051526130}
   - {fileID: 8462669381730622086}
   - {fileID: 187767981}
+  - {fileID: 1771802916}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7263266710296413728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2722486965110257553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bc0929217a19e241adb6928cc4a0277, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  setupData: {fileID: 11400000, guid: d0dc7523060053b4ba757c96487d533c, type: 2}
-  bodyType: 0
-  slots:
-    armor:
-      material: {fileID: 2100000, guid: bf5cd31166f84754aae46b32cffa3a32, type: 2}
-      assignedPart: {fileID: 11400000, guid: 214ffc32f281b1842b396ee50e4fafa8, type: 2}
-      color1: {r: 0.17647055, g: 0.4627451, b: 0.066666655, a: 1}
-      color2: {r: 0.1764706, g: 0.4627451, b: 0.06666667, a: 1}
-      color3: {r: 0.17647055, g: 0.4627451, b: 0.066666655, a: 1}
-    boots:
-      material: {fileID: 2100000, guid: 20a499afa7297ea40a36c4d5a4aa3e6a, type: 2}
-      assignedPart: {fileID: 11400000, guid: c852edacc77776542bcc416ce75999a6, type: 2}
-      color1: {r: 0.17647055, g: 0.4627451, b: 0.066666655, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    ear:
-      material: {fileID: 2100000, guid: 4c094e0f0fc5e6b489f4564311519236, type: 2}
-      assignedPart: {fileID: 11400000, guid: beb046ab79d8570488c4215c725715b9, type: 2}
-      color1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    eyebrow:
-      material: {fileID: 2100000, guid: 4c094e0f0fc5e6b489f4564311519236, type: 2}
-      assignedPart: {fileID: 11400000, guid: c3df27fcc933a2f46a09451e9b7a7a58, type: 2}
-      color1: {r: 0.3019608, g: 0.19215687, b: 0.19215687, a: 1}
-      color2: {r: 0.3019608, g: 0.19215687, b: 0.19215687, a: 1}
-      color3: {r: 0.3019608, g: 0.19215687, b: 0.19215687, a: 1}
-    eyes:
-      material: {fileID: 2100000, guid: 4c094e0f0fc5e6b489f4564311519236, type: 2}
-      assignedPart: {fileID: 11400000, guid: b37407ca3b0ede9489903cb6394c2644, type: 2}
-      color1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    facialHair:
-      material: {fileID: 2100000, guid: 4c094e0f0fc5e6b489f4564311519236, type: 2}
-      assignedPart: {fileID: 0}
-      color1: {r: 0.3019608, g: 0.19215687, b: 0.19215687, a: 1}
-      color2: {r: 0.3019608, g: 0.19215687, b: 0.19215687, a: 1}
-      color3: {r: 0.3019608, g: 0.19215687, b: 0.19215687, a: 1}
-    gloves:
-      material: {fileID: 2100000, guid: b529f7dc43426ad44b355a2bb79c87e0, type: 2}
-      assignedPart: {fileID: 0}
-      color1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    hair:
-      material: {fileID: 2100000, guid: 4c094e0f0fc5e6b489f4564311519236, type: 2}
-      assignedPart: {fileID: 11400000, guid: a5512bb632f129f40aa482470f56f530, type: 2}
-      color1: {r: 0.3019608, g: 0.19215687, b: 0.19215687, a: 1}
-      color2: {r: 0.3019608, g: 0.19215687, b: 0.19215687, a: 1}
-      color3: {r: 0.3019608, g: 0.19215687, b: 0.19215687, a: 1}
-    helmet:
-      material: {fileID: 2100000, guid: 8621705d68f8ddf49b731222c024d4f5, type: 2}
-      assignedPart: {fileID: 11400000, guid: 031f51eba7644d04a90b2952542b63c5, type: 2}
-      color1: {r: 0.17647055, g: 0.4627451, b: 0.066666655, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    mouth:
-      material: {fileID: 2100000, guid: 4c094e0f0fc5e6b489f4564311519236, type: 2}
-      assignedPart: {fileID: 11400000, guid: 77d6e8b1b42e2e648a42899a2d8ab29e, type: 2}
-      color1: {r: 0.84309804, g: 0.46499756, b: 0.26334396, a: 1}
-      color2: {r: 0.84309804, g: 0.46499756, b: 0.26334396, a: 1}
-      color3: {r: 0.84309804, g: 0.46499756, b: 0.26334396, a: 1}
-    nose:
-      material: {fileID: 2100000, guid: 4c094e0f0fc5e6b489f4564311519236, type: 2}
-      assignedPart: {fileID: 11400000, guid: 1d814c6973ed59f41af705878fecff45, type: 2}
-      color1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    pants:
-      material: {fileID: 2100000, guid: 334ddc012212ab74e94add25e07d7d70, type: 2}
-      assignedPart: {fileID: 11400000, guid: 34d60ddb3b54c6344ba46a182c6f49ad, type: 2}
-      color1: {r: 0.17647055, g: 0.4627451, b: 0.066666655, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    skinDetails:
-      material: {fileID: 2100000, guid: e7b1a3c950a419d4aa15264fd0a2a97c, type: 2}
-      assignedPart: {fileID: 0}
-      color1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    mainHand:
-      material: {fileID: 2100000, guid: 7e934702bb035c74cad551c5c42b85e5, type: 2}
-      assignedPart: {fileID: 11400000, guid: 6f1e42b4aab449b429b1fa0e305817dd, type: 2}
-      color1: {r: 0.17647055, g: 0.4627451, b: 0.066666655, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    offHand:
-      material: {fileID: 2100000, guid: 5b5b415378726374fa533d910c3fd350, type: 2}
-      assignedPart: {fileID: 0}
-      color1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    cape:
-      material: {fileID: 2100000, guid: e4a9f47cedde4684f9dc4c0db0e23adc, type: 2}
-      assignedPart: {fileID: 0}
-      color1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    skirts:
-      material: {fileID: 2100000, guid: e8ba227ede0e1474b8161c32a80afb8a, type: 2}
-      assignedPart: {fileID: 0}
-      color1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    bodySkin:
-      material: {fileID: 2100000, guid: e7b1a3c950a419d4aa15264fd0a2a97c, type: 2}
-      assignedPart: {fileID: 11400000, guid: 35704464de951da46af22aef0502012c, type: 2}
-      color1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-      color3: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  emotes:
-    blink:
-      name: Blink
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 11400000, guid: 55c0fd21ebaea4148857d44743a08d9f, type: 2}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 0}
-      earPart: {fileID: 0}
-    attack:
-      name: Attack
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 11400000, guid: 94ac76da04c25504dbaa24b8d303c0ff, type: 2}
-      earPart: {fileID: 0}
-    hurt:
-      name: Hurt
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 11400000, guid: d0dac9fd7213ce74ea5d42efe039329e, type: 2}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 11400000, guid: 94ac76da04c25504dbaa24b8d303c0ff, type: 2}
-      earPart: {fileID: 0}
-    talk:
-      name: Talk
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 11400000, guid: 721c724dfa8ba25458bc80b898388627, type: 2}
-      earPart: {fileID: 0}
-    customEmote0:
-      name: 
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 0}
-      earPart: {fileID: 0}
-    customEmote1:
-      name: 
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 0}
-      earPart: {fileID: 0}
-    customEmote2:
-      name: 
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 0}
-      earPart: {fileID: 0}
-    customEmote3:
-      name: 
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 0}
-      earPart: {fileID: 0}
-    customEmote4:
-      name: 
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 0}
-      earPart: {fileID: 0}
-    customEmote5:
-      name: 
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 0}
-      earPart: {fileID: 0}
-    customEmote6:
-      name: 
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 0}
-      earPart: {fileID: 0}
-    customEmote7:
-      name: 
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 0}
-      earPart: {fileID: 0}
-    customEmote8:
-      name: 
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 0}
-      earPart: {fileID: 0}
-    customEmote9:
-      name: 
-      eyebrowPart: {fileID: 0}
-      eyesPart: {fileID: 0}
-      nosePart: {fileID: 0}
-      mouthPart: {fileID: 0}
-      earPart: {fileID: 0}
-  emoteAnimIndex: -1
-  initializeAtAwake: 0
-  instanceMaterials: 0
-  sprites:
-  - {fileID: 7437712508508713834}
-  - {fileID: 1920630652854321457}
-  - {fileID: 8884339836481191932}
-  - {fileID: 3935575158141673847}
-  - {fileID: 6742848440826433963}
-  - {fileID: 4137125609668141299}
-  - {fileID: 2676189137442900637}
-  - {fileID: 5422794427276256088}
-  - {fileID: 6374036646558778670}
-  - {fileID: 6553360041308192705}
-  - {fileID: 9164340809169571850}
-  - {fileID: 2914816883021963087}
-  - {fileID: 5533473093445404219}
-  - {fileID: 7096009787611796325}
-  - {fileID: 3605068577199665085}
-  - {fileID: 3246000458767268332}
-  - {fileID: 1648549396704832002}
-  - {fileID: 5524588505867612419}
-  - {fileID: 1526468021860429678}
-  - {fileID: 5676644162259350645}
-  - {fileID: 6542694696779950241}
-  - {fileID: 6663823084827537138}
-  - {fileID: 8553754229240283281}
-  - {fileID: 175364899516898333}
-  - {fileID: 6706430683531646617}
-  - {fileID: 9142996576638880104}
-  - {fileID: 1836223893777858270}
-  - {fileID: 5701686813322860043}
-  - {fileID: 3730205580631879427}
-  - {fileID: 4893634753425132748}
-  - {fileID: 97442155873713333}
-  - {fileID: 5278545960582242914}
-  - {fileID: 7788199810518228220}
-  - {fileID: 4829695854877274482}
-  - {fileID: 2780176658979431546}
-  - {fileID: 3629631177256487730}
-  - {fileID: 8801774683238131211}
-  - {fileID: 52270901390701673}
-  - {fileID: 7554897668754274672}
-  - {fileID: 1953440766668513686}
-  - {fileID: 1355234845992481934}
-  - {fileID: 5735793333305354776}
-  - {fileID: 8374913354292109454}
-  - {fileID: 1720039757317410966}
-  - {fileID: 5250812415324038028}
-  - {fileID: 2773358187409271476}
-  - {fileID: 5312655799696108437}
-  - {fileID: 5657218348985785102}
-  - {fileID: 2222005482043192601}
-  - {fileID: 3370446149293941372}
-  - {fileID: 3122709905829299459}
-  - {fileID: 7621229368942793035}
-  - {fileID: 4451192369819710825}
-  - {fileID: 8333505188190192871}
-  - {fileID: 2805043675792990208}
-  - {fileID: 5554838739274644760}
-  - {fileID: 1256727803196049770}
-  - {fileID: 7191581709484238438}
-  - {fileID: 2203387918180918231}
-  - {fileID: 1576239578235777616}
-  - {fileID: 5449678017872896895}
-  - {fileID: 3825076160989602021}
-  - {fileID: 1537958620360745441}
-  - {fileID: 4981626063397861661}
-  - {fileID: 5944597231057239174}
-  - {fileID: 2208868479663617229}
-  - {fileID: 6317637518882112759}
-  - {fileID: 8850616980636724722}
-  - {fileID: 6766198917692754858}
-  - {fileID: 101502121965210491}
-  - {fileID: 229094607135595090}
-  skins:
-  - {fileID: 5250812415324038028}
-  - {fileID: 175364899516898333}
-  - {fileID: 7621229368942793035}
-  - {fileID: 8333505188190192871}
-  - {fileID: 8553754229240283281}
-  - {fileID: 6742848440826433963}
-  - {fileID: 2676189137442900637}
-  - {fileID: 6553360041308192705}
-  - {fileID: 9164340809169571850}
-  - {fileID: 7191581709484238438}
-  - {fileID: 4981626063397861661}
-  - {fileID: 5944597231057239174}
-  - {fileID: 2208868479663617229}
-  - {fileID: 6663823084827537138}
-  - {fileID: 1526468021860429678}
-  - {fileID: 5676644162259350645}
-  - {fileID: 6542694696779950241}
-  - {fileID: 4893634753425132748}
-  - {fileID: 97442155873713333}
-  - {fileID: 7788199810518228220}
-  - {fileID: 5278545960582242914}
-  - {fileID: 4829695854877274482}
-  _bodyscaler:
-    _headScale: {x: 0.5, y: 0.5}
-    _earScale: {x: 0.5, y: 0.5}
-    _neckScale: {x: 0.5, y: 0.5}
-    _bodyScale: {x: 0.5, y: 0.5}
-    _upperArmScale: {x: 0.5, y: 0.5}
-    _lowerArmScale: {x: 0.5, y: 0.5}
-    _handScale: {x: 0.5, y: 0.5}
-    _upperleg: {x: 0.5, y: 0.5}
-    _lowerLegScale: {x: 0.5, y: 0.5}
-    _footScale: {x: 0.5, y: 0.5}
-  _skincolor: {r: 0.71603924, g: 0.4542545, b: 0.31463596, a: 1}
-  _tintcolor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!210 &6523053070611630260
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -7613,7 +7326,7 @@ MonoBehaviour:
     m_Bits: 102
   m_GroundCheck: {fileID: 5565789722051526130}
   m_CeilingCheck: {fileID: 8462669381730622086}
-  m_CrouchDisableCollider: {fileID: 1335501700}
+  m_CrouchDisableCollider: {fileID: 1771802917}
   m_FacingRight: 1
   OnLandEvent:
     m_PersistentCalls:
@@ -7681,25 +7394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06486430f68071f45b7681cfa9c6011a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
+  maxHealth: 100
   curentHealth: 0
   healthBar: {fileID: 0}
---- !u!70 &1335501700
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2722486965110257553}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.020999908, y: 10.458028}
-  m_Size: {x: 1.4660008, y: 2.5960078}
-  m_Direction: 0
 --- !u!82 &6237228580883918050
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7709,7 +7406,7 @@ AudioSource:
   m_GameObject: {fileID: 2722486965110257553}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 9b523579ee35a3e4da572a672cd37c3a, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
