@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 Base path: 'F:/Unity3D/2020.3.15f2/Editor/2020.3.19f1/Editor/Data', plugins path 'F:/Unity3D/2020.3.15f2/Editor/2020.3.19f1/Editor/Data/PlaybackEngines'
+=======
+Base path: 'D:/Unity/Hub/Editor/2020.3.19f1/Editor/Data', plugins path 'D:/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines'
+>>>>>>> 021310b1a2b435cd86b0c06df033c378e859db48
 Cmd: initializeCompiler
 
-Cmd: shutdown

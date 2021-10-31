@@ -46,12 +46,13 @@ public class HealthEnemy : MonoBehaviour
             this.animator.SetTrigger("die");
             this.collider.enabled = false;
             
-            StartCoroutine(DestroyEnemyDie());
+            
         }
-        
-        
-        
-        
+        StartCoroutine(DestroyEnemyDie());
+
+
+
+
     }
     IEnumerator DestroyEnemyDie()
     {
