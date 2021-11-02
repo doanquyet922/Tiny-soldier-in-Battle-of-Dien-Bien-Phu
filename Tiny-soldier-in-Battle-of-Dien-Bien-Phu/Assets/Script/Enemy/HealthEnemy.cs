@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealthEnemy : MonoBehaviour
 {
-    
+    public GameObject medKit;
     public int maxHealth = 100;
     public int curentHealth;
     Animator animator;
@@ -32,9 +32,10 @@ public class HealthEnemy : MonoBehaviour
         curentHealth -= dame;
         healthBar.SetHealth(curentHealth);
         
-        if (curentHealth <= 0)
+        if (curentHealth <= 0 && isDied == false)
         {
             this.Die();
+            Instantiate(medKit, transform.position, Quaternion.identity);
         }
     }
     public void Die()
@@ -49,7 +50,7 @@ public class HealthEnemy : MonoBehaviour
             
         }
         StartCoroutine(DestroyEnemyDie());
-
+        
 
 
 
