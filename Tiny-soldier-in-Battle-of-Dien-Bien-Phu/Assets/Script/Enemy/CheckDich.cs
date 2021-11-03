@@ -34,8 +34,11 @@ public class CheckDich : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             EnemyAI e = GetComponentInChildren<EnemyAI>();
-            if(e)
-            e.onMove = true;
+            if (e)
+            {
+                e.onMove = true;
+            }
+
         }
     }
 }

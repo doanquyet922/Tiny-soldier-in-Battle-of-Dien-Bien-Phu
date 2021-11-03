@@ -16,16 +16,21 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Ins();
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.visible = true;
+            Pause();
+        }
     }
     public void GameWin()
     {
-        
+        Cursor.visible = true;
         GameWinUI.SetActive(true);
 
     }
@@ -38,12 +43,14 @@ public class GameManager : MonoBehaviour
     }
    public void Pause()
     {
+        
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPause = true;
     }
     public void Resume()
     {
+        Cursor.visible = false;
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPause = false;
@@ -63,6 +70,7 @@ public class GameManager : MonoBehaviour
     }
     public void ShowGameOver()
     {
+        Cursor.visible = true;
         Time.timeScale = 0f;
         GameIsOver = true;
         GameOverUI.SetActive(true);

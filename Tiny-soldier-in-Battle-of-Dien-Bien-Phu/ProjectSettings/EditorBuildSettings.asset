@@ -12,12 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MapLevelSelection.unity
     guid: f3be9c0769c5d3741a9a7e5ea202b32c
   - enabled: 1
-    path: Assets/Scenes/BanKeoScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/HimLamScene.unity
     guid: 844638850249a1246b20409ae6178dc4
   - enabled: 1
     path: Assets/Scenes/DocLapScene.unity
     guid: bcd9c7429141fe243b8bb3a0e2316f74
+  - enabled: 1
+    path: Assets/Scenes/BanKeoScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

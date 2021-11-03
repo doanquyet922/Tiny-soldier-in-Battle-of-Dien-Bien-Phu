@@ -35,6 +35,7 @@ public class HealthEnemy : MonoBehaviour
         if (curentHealth <= 0 && isDied == false)
         {
             this.Die();
+            if(medKit)
             Instantiate(medKit, transform.position, Quaternion.identity);
         }
     }

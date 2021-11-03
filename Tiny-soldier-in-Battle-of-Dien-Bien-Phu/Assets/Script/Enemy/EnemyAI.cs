@@ -43,7 +43,12 @@ public class EnemyAI : MonoBehaviour
 
         if (onMove == true)
         {
+            animator.SetBool("shoot", false);
+            m_CheckShoot = false;
+            StopChasingPlayer();
+            StopAllCoroutines();
             Move();
+
         }
         else
         {
@@ -54,9 +59,11 @@ public class EnemyAI : MonoBehaviour
 
                 Crouch();
             }
-            float distToPlayer = Vector2.Distance(transform.position, player.transform.position);
+            //float distToPlayer = Vector2.Distance(transform.position, player.transform.position);
 
-            if (distToPlayer < agroRange && he.isDied == false)
+            if (
+                //distToPlayer < agroRange &&
+                he.isDied == false)
             {
                 ChasePlayer();
                 animator.SetBool("shoot", true);

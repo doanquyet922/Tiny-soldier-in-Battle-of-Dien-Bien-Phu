@@ -148,3 +148,4 @@ MonoBehaviour:
   rb: {fileID: 7433524296725246210}
   damage: 50
   explosive: {fileID: 2019700024486949950, guid: 0e80ba21f31573541bbb0ef1930ad62e, type: 3}
+  explosiveSound: {fileID: 8300000, guid: 615b148bb37f6f64a822ee99b8b882d6, type: 3}
