@@ -424,3 +424,4 @@ Received Import Request.
 Start importing Assets/Scenes/InsideHome.unity using Guid(2e12d19ce838b974eb841e7695e9767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eeedcdf0cdff65751bd8c8adae98da8') in 0.010397 seconds 
   Import took 0.015673 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
