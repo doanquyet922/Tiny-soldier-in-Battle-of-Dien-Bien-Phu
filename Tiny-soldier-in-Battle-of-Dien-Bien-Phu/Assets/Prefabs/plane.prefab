@@ -619,7 +619,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed0954414032d74188e3c8c129178c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  medKit: {fileID: 0}
+  maxHealth: 500
   curentHealth: 0
   healthBar: {fileID: 1642159572}
   isDied: 0

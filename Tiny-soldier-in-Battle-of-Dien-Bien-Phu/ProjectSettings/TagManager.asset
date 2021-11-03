@@ -12,6 +12,7 @@ TagManager:
   - PlaneLimitLeft
   - MedKit
   - Thorn
+  - Box_GunPowder
   layers:
   - Default
   - TransparentFX
