@@ -77,7 +77,11 @@ public class Boom : MonoBehaviour
 
         trajectory.UpdateDots(ball.pos, force);
     }
-
+    public void AddBoom()
+    {
+        boom++;
+        GameManager.ins.SetBoom(boom);
+    }
     void OnDragEnd()
     {
         //push the ball
