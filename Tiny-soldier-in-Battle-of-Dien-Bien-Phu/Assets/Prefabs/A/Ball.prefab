@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosive: {fileID: 2019700024486949950, guid: 0e80ba21f31573541bbb0ef1930ad62e, type: 3}
-  damage: 50
+  damage: 150
   rb: {fileID: 0}
   col: {fileID: 0}
   aus: {fileID: 3685328449122031223}

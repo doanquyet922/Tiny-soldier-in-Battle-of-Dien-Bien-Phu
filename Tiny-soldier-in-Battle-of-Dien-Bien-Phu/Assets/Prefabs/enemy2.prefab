@@ -3353,10 +3353,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   medKit: {fileID: 6409885290310617959, guid: 7ef3c41e53696b54bb8e94d71ebb2799, type: 3}
-  maxHealth: 300
+  maxHealth: 200
   curentHealth: 0
   healthBar: {fileID: 1133029}
-  aus: {fileID: 3408698791376960551}
   isDied: 0
 --- !u!114 &8550486124473781320
 MonoBehaviour:

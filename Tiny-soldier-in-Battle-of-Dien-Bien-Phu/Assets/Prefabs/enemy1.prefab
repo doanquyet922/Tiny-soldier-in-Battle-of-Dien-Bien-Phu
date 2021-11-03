@@ -17650,10 +17650,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   medKit: {fileID: 6409885290310617959, guid: 7ef3c41e53696b54bb8e94d71ebb2799, type: 3}
-  maxHealth: 300
+  maxHealth: 200
   curentHealth: 0
   healthBar: {fileID: 7126576225781596596}
-  aus: {fileID: 3998998263764874131}
   isDied: 0
 --- !u!114 &66905661
 MonoBehaviour:
