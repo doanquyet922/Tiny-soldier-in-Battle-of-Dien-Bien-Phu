@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -12,13 +13,22 @@ public class GameManager : MonoBehaviour
     public GameObject SettingMenuUI;
     public GameObject GameOverUI;
     public GameObject GameWinUI;
+    public Text boomText;
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         Ins();
         Cursor.visible = false;
+        SetBoom(0);
     }
-
+    void Start()
+    {
+        
+    }
+    public void SetBoom(int boom)
+    {
+        boomText.text=boom.ToString();
+    }
     // Update is called once per frame
     void Update()
     {
