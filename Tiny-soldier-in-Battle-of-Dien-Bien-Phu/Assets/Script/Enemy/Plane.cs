@@ -9,7 +9,7 @@ public class Plane : MonoBehaviour
     public SpriteRenderer rd;
     public GameObject explosive;
     HealthEnemy he;
-    
+    public AudioSource aus;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,13 +46,13 @@ public class Plane : MonoBehaviour
             
             if (explosive)
             {
-                
+                aus.PlayOneShot(aus.clip);
                 GameObject e = Instantiate(explosive, transform.position, Quaternion.identity);
                 Destroy(e, 1); 
                 
 
             }
-            Destroy(gameObject);
+            Destroy(gameObject,1);
         }
 
     }

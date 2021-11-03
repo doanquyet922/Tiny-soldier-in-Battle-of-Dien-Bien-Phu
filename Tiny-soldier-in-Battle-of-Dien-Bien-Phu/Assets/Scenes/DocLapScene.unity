@@ -14587,6 +14587,7 @@ MonoBehaviour:
   PauseMenuUI: {fileID: 992791339}
   SettingMenuUI: {fileID: 32567252}
   GameOverUI: {fileID: 324085006}
+  GameWinUI: {fileID: 1585102261}
 --- !u!4 &1212344984
 Transform:
   m_ObjectHideFlags: 0

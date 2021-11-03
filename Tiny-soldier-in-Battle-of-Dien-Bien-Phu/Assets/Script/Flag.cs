@@ -27,7 +27,12 @@ public class Flag : MonoBehaviour
         if (collision.CompareTag("Player") && win==true)
         {
             animator.SetTrigger("pullFlag");
-            GameManager.ins.GameWin();
+            StartCoroutine(Win());
         }
+    }
+   IEnumerator Win()
+    {
+        yield return new WaitForSeconds(3);
+        GameManager.ins.GameWin();
     }
 }

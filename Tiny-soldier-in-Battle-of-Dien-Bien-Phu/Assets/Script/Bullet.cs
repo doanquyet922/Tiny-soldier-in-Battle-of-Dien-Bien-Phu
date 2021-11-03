@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     public Rigidbody2D rb;
     public int damage = 20;
     public GameObject explosive;
-
+    public AudioSource aus;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,8 +36,13 @@ public class Bullet : MonoBehaviour
             GameObject enemy = collision.gameObject;
             HealthEnemy hd = enemy.GetComponent<HealthEnemy>();
             hd.TakeDamge(damage);
-            if (explosive)
+            if (explosive )
             {
+                if (aus)
+                {
+                    
+                    aus.PlayOneShot(aus.clip);
+                }
                 GameObject e= Instantiate(explosive, transform.position, Quaternion.identity);
                 Destroy(e,1);
             }

@@ -10,6 +10,7 @@ public class HealthEnemy : MonoBehaviour
     Animator animator;
     Collider2D collider;
     public HealthBar healthBar;
+    public AudioSource aus;
     public bool isDied = false;
     // Start is called before the first frame update
     void Start()
@@ -39,6 +40,7 @@ public class HealthEnemy : MonoBehaviour
     }
     public void Die()
     {
+        aus.PlayOneShot(aus.clip);
         isDied = true;
         if (this.animator && this.collider)
         {
@@ -48,17 +50,14 @@ public class HealthEnemy : MonoBehaviour
             
             
         }
-        StartCoroutine(DestroyEnemyDie());
+        Destroy(gameObject,3);
+        
 
 
 
 
     }
-    IEnumerator DestroyEnemyDie()
-    {
-        yield return new WaitForSeconds(3);
-        Destroy(this.gameObject);
-    }
+   
    
 
 }
