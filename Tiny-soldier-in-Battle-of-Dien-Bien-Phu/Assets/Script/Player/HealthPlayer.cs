@@ -83,6 +83,17 @@ public class HealthPlayer : MonoBehaviour
 
             healthBar.SetHealth(curentHealth);
         }
+
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Thorn"))
+        {
+            this.Die();
+
+        }
     }
 
     public IEnumerator ShowAddHealth()
