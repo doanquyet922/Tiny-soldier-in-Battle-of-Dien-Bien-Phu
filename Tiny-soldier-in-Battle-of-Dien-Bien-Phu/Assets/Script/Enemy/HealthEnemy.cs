@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HealthEnemy : MonoBehaviour
 {
+
     public GameObject medKit;
     public int maxHealth = 100;
     public int curentHealth;
@@ -42,6 +43,8 @@ public class HealthEnemy : MonoBehaviour
     public void Die()
     {
         isDied = true;
+        EnemyAI ene = GetComponent<EnemyAI>();
+        ene.onMove = false;
         if (this.animator && this.collider)
         {
             
