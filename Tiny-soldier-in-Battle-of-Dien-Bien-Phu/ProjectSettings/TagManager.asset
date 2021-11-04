@@ -13,6 +13,8 @@ TagManager:
   - MedKit
   - Box_GunPowder
   - Bullet
+  - Thorn
+  - elevator
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground123
   - 
   - 
   - 
