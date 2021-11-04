@@ -12,7 +12,10 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         rb.velocity = transform.right * speed;
+       
+
     }
 
     // Update is called once per frame
@@ -36,8 +39,8 @@ public class Bullet : MonoBehaviour
             {
                 if (aus)
                 {
-
-                    AudioSource.PlayClipAtPoint(aus.clip, transform.position);
+                    
+                    aus.PlayOneShot(aus.clip);
                 }
                 GameObject e= Instantiate(explosive, transform.position, Quaternion.identity);
                 Destroy(e,1);

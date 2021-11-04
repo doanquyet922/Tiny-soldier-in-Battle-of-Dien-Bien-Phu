@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - Enemy
+  - LimitBullet
+  - Ground
+  - PlaneCheck
+  - PlaneLimitRight
+  - PlaneLimitLeft
+  - MedKit
+  - Thorn
+  - Box_GunPowder
+>>>>>>> parent of 2c30ac4 (box gunpowder)
   layers:
   - Default
   - TransparentFX
