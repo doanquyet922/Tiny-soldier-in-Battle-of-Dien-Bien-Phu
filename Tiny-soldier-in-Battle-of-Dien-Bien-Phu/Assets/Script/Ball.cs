@@ -4,7 +4,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
 	public GameObject explosive;
-	 public int  damage;
+	public int  damage;
 	[HideInInspector] public Rigidbody2D rb;
 	[HideInInspector] public CircleCollider2D col;
 	 public AudioSource aus;
