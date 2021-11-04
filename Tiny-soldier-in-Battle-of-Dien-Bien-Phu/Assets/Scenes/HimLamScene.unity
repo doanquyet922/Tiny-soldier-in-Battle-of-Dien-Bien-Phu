@@ -24958,10 +24958,14 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 35
 =======
   m_RootOrder: 37
 >>>>>>> 2c30ac4152934a1127b722e6ac32594021e7d68b
+=======
+  m_RootOrder: 36
+>>>>>>> parent of 2c30ac4 (box gunpowder)
 =======
   m_RootOrder: 36
 >>>>>>> parent of 2c30ac4 (box gunpowder)

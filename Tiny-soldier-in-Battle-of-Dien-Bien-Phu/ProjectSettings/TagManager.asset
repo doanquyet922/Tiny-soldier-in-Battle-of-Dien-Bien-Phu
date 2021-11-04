@@ -16,6 +16,9 @@ TagManager:
   - MedKit
   - Thorn
   - Box_GunPowder
+<<<<<<< HEAD
+>>>>>>> parent of 2c30ac4 (box gunpowder)
+=======
 >>>>>>> parent of 2c30ac4 (box gunpowder)
   layers:
   - Default
