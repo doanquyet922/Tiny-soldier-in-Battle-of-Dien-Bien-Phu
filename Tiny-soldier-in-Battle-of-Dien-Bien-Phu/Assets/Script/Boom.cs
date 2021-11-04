@@ -19,11 +19,14 @@ public class Boom : MonoBehaviour
     Vector2 direction;
     Vector2 force;
     float distance;
+    private void Awake()
+    {
+        
+    }
 
     //---------------------------------------
     void Start()
     {
-
         cam = Camera.main;
         GameManager.ins.SetBoom(boom);
         //ball.DesactivateRb();

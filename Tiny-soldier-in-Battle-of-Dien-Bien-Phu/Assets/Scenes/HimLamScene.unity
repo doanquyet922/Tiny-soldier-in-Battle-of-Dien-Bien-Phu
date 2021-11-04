@@ -11509,6 +11509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4196936257553589049, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
+      propertyPath: boom
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4501294294595370700, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
       propertyPath: addHeath
       value: 
