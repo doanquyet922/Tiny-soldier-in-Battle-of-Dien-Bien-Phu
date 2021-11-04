@@ -19,7 +19,7 @@ public class Buiding : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && e==true)
         {
-            Debug.Log("E");
+           
             SceneManager.LoadScene("InsideHome");
         }
         HealthEnemy[] enemys = FindObjectsOfType<HealthEnemy>();

@@ -130,21 +130,25 @@ public class EnemyAI : MonoBehaviour
     }
     void Crouch()
     {
-
+        
         timeUnitCouch = Time.time + timeCouch;
         CharacterController2D ct = player.GetComponent<CharacterController2D>();
-        if (ct.m_wasCrouching == true && he.isDied == false)
+        if (ct)
         {
+            if (ct.m_wasCrouching == true && he.isDied == false)
+            {
 
-            animator.SetBool("crouch", true);
-            topCollider.enabled = false;
+                animator.SetBool("crouch", true);
+                topCollider.enabled = false;
 
+            }
+            else
+            {
+                animator.SetBool("crouch", false);
+                topCollider.enabled = true;
+            }
         }
-        else
-        {
-            animator.SetBool("crouch", false);
-            topCollider.enabled = true;
-        }
+        
 
 
         //StartCoroutine(Crouch());
