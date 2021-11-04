@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/HimLamScene.unity
     guid: 844638850249a1246b20409ae6178dc4
   - enabled: 1
+    path: Assets/Scenes/InsideHome.unity
+    guid: 2e12d19ce838b974eb841e7695e9767b
+  - enabled: 1
     path: Assets/Scenes/DocLapScene.unity
     guid: bcd9c7429141fe243b8bb3a0e2316f74
   - enabled: 1
