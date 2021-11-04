@@ -5,15 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlaneLimitLeft
-  - Ground
-  - LimitBullet
   - PlaneLimitRight
-  - Enemy
+  - LimitBullet
+  - Ground
   - PlaneCheck
+  - Enemy
   - MedKit
-  - Thorn
   - Box_GunPowder
-  - elevator
   - Bullet
   layers:
   - Default
@@ -22,7 +20,7 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground123
+  - 
   - 
   - 
   - 

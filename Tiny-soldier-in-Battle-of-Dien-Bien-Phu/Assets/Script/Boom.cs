@@ -19,14 +19,11 @@ public class Boom : MonoBehaviour
     Vector2 direction;
     Vector2 force;
     float distance;
-    private void Awake()
-    {
-        
-    }
 
     //---------------------------------------
     void Start()
     {
+
         cam = Camera.main;
         GameManager.ins.SetBoom(boom);
         //ball.DesactivateRb();
@@ -34,7 +31,7 @@ public class Boom : MonoBehaviour
 
     void Update()
     {
-        if (boom>0)
+        if (boom > 0)
         {
             if (Input.GetMouseButtonDown(1))
             {
@@ -50,7 +47,7 @@ public class Boom : MonoBehaviour
                 OnDragEnd();
             }
         }
-        
+
 
         if (isDragging)
         {
@@ -80,7 +77,11 @@ public class Boom : MonoBehaviour
 
         trajectory.UpdateDots(ball.pos, force);
     }
-
+    public void AddBoom()
+    {
+        boom++;
+        GameManager.ins.SetBoom(boom);
+    }
     void OnDragEnd()
     {
         //push the ball
