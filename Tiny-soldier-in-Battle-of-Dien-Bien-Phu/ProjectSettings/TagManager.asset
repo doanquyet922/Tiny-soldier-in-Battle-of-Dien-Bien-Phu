@@ -13,7 +13,11 @@ TagManager:
   - MedKit
   - Thorn
   - Box_GunPowder
+<<<<<<< HEAD
   - elevator
+=======
+  - Bullet
+>>>>>>> 2c30ac4152934a1127b722e6ac32594021e7d68b
   layers:
   - Default
   - TransparentFX
