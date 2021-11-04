@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class HealthPlayer : MonoBehaviour
 {
     public GameObject addHeath;
-    public int  maxHealth = 100;
+    public int  maxHealth = 200;
     public int curentHealth;
     Animator animator;
     Collider2D collider;
@@ -76,9 +76,9 @@ public class HealthPlayer : MonoBehaviour
             Destroy(collision.gameObject);
             curentHealth = curentHealth + 50;
 
-            if (curentHealth >= 100)
+            if (curentHealth >= maxHealth)
             {
-                curentHealth = 100;
+                curentHealth = maxHealth;
             }
 
             healthBar.SetHealth(curentHealth);

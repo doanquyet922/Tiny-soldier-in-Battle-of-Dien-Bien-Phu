@@ -7397,7 +7397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   addHeath: {fileID: 0}
-  maxHealth: 100
+  maxHealth: 200
   curentHealth: 0
   healthBar: {fileID: 0}
   audio: {fileID: 0}
@@ -7414,6 +7414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebb95c6348d9f9b49b1faf7588c357ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boom: 0
   ballprefab: {fileID: 5124501226459978448, guid: aca7241517a1cb84d89658645bcf0f41, type: 3}
   trajectory: {fileID: 2932137771860978443}
   pushForce: 4
