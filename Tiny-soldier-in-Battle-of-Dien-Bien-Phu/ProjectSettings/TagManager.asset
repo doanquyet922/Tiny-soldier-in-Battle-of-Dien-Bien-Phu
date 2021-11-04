@@ -13,6 +13,8 @@ TagManager:
   - MedKit
   - Thorn
   - Box_GunPowder
+  - elevator
+  - Bullet
   layers:
   - Default
   - TransparentFX

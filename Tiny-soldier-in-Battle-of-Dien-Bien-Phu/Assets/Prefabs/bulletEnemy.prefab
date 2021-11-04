@@ -118,10 +118,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec7120ba6f07796489f406f43ae4f11f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 10
   rb: {fileID: 7441385432480436290}
   damage: 20
   explosive: {fileID: 0}
+  explosiveSound: {fileID: 0}
 --- !u!58 &3733642934466624168
 CircleCollider2D:
   m_ObjectHideFlags: 0
