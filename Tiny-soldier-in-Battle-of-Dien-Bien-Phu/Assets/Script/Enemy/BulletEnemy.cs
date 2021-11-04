@@ -35,7 +35,8 @@ public class BulletEnemy : MonoBehaviour
         }
         if (collision.CompareTag("Player"))
         {
-            if(explosiveSound)
+            Destroy(gameObject);
+            if (explosiveSound)
             AudioSource.PlayClipAtPoint(explosiveSound, transform.position);
             GameObject player = collision.gameObject;
             HealthPlayer hd = player.GetComponent<HealthPlayer>();
@@ -45,7 +46,7 @@ public class BulletEnemy : MonoBehaviour
                 GameObject e = Instantiate(explosive, transform.position, Quaternion.identity);
                 Destroy(e, 1);
             }
-            Destroy(gameObject);
+            
         }
     }
 }

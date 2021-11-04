@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlaneLimitLeft
+  - PlaneLimitRight
+  - LimitBullet
+  - Ground
+  - PlaneCheck
+  - Enemy
+  - MedKit
+  - Box_GunPowder
+  - Bullet
   layers:
   - Default
   - TransparentFX

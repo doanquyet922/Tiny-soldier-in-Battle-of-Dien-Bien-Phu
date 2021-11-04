@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3733642934466624168}
   m_Layer: 0
   m_Name: bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,6 +101,7 @@ MonoBehaviour:
   rb: {fileID: 7441385432480436290}
   damage: 50
   explosive: {fileID: 0}
+  aus: {fileID: 0}
 --- !u!50 &7441385432480436290
 Rigidbody2D:
   serializedVersion: 4
