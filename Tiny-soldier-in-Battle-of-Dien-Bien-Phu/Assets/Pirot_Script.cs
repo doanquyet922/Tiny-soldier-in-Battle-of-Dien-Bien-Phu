@@ -28,6 +28,8 @@ public class Pirot_Script : MonoBehaviour
         {
             die_anim.SetTrigger("die");
             Dialog_MoCua.SetActive(true);
+            Door door = FindObjectOfType<Door>();
+            door.SetOpenDoor(true);
         }
     }
 }

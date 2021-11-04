@@ -12,6 +12,10 @@ public class HealthEnemy : MonoBehaviour
     Collider2D collider;
     public HealthBar healthBar;
     public bool isDied = false;
+    public GameObject explosiveBig;
+
+    public AudioSource audio;
+    public AudioClip audio_death;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,11 +34,13 @@ public class HealthEnemy : MonoBehaviour
     }
     public void TakeDamge(int dame)
     {
+        
         curentHealth -= dame;
         healthBar.SetHealth(curentHealth);
         
         if (curentHealth <= 0 && isDied == false)
         {
+            
             this.Die();
             if(medKit)
             Instantiate(medKit, transform.position, Quaternion.identity);
@@ -42,8 +48,23 @@ public class HealthEnemy : MonoBehaviour
     }
     public void Die()
     {
+        if (audio && audio_death)
+        {
+            
+            audio.PlayOneShot(audio_death);
+        }
+            
         isDied = true;
+        if (explosiveBig)
+        {
+            explosiveBig.transform.localScale = new Vector3(5, 5, 0);
+            GameObject a = Instantiate(explosiveBig, transform.position, Quaternion.identity);
+            Destroy(a,1);
+            Destroy(gameObject);
+            return;
+        }
         EnemyAI ene = GetComponent<EnemyAI>();
+        if(ene)
         ene.onMove = false;
         if (this.animator && this.collider)
         {
@@ -53,17 +74,13 @@ public class HealthEnemy : MonoBehaviour
             
             
         }
-        StartCoroutine(DestroyEnemyDie());
         
+        Destroy(this.gameObject,3);
 
 
 
     }
-    IEnumerator DestroyEnemyDie()
-    {
-        yield return new WaitForSeconds(3);
-        Destroy(this.gameObject);
-    }
+  
    
 
 }

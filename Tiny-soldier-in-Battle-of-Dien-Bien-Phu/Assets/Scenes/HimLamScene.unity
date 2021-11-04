@@ -1975,7 +1975,7 @@ RectTransform:
   m_Children:
   - {fileID: 1020685381}
   m_Father: {fileID: 1897328090}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2026,7 +2026,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 18550081}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Exit
         m_Mode: 1
@@ -7067,7 +7067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0.1600003, y: 6.009998, z: 0}
+  m_TrackedObjectOffset: {x: -0.02, y: 2.59, z: 0}
   m_LookaheadTime: 0.09
   m_LookaheadSmoothing: 10
   m_LookaheadIgnoreY: 1
@@ -7869,7 +7869,7 @@ RectTransform:
   m_Children:
   - {fileID: 2045217228}
   m_Father: {fileID: 1897328090}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7920,7 +7920,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 18550081}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Replay
         m_Mode: 1
@@ -11279,7 +11279,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758569921}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.67, y: 3.97, z: 10}
+  m_LocalPosition: {x: -10.03, y: 0.4, z: 10}
   m_LocalScale: {x: 1.157, y: 18.00379, z: 1}
   m_Children: []
   m_Father: {fileID: 1766946723}
@@ -14737,11 +14737,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8314530654655859203, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36.36
+      value: -70.7
       objectReference: {fileID: 0}
     - target: {fileID: 8314530654655859203, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.16
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 8314530654655859203, guid: 37d21e78d6c25d24982df477372190d9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16332,7 +16332,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1735489094}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 10
+    OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -16353,7 +16353,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107174610}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.52, y: 3.0499978, z: -10}
+  m_LocalPosition: {x: -70.71999, y: 3.5899997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 480878053}
@@ -21393,7 +21393,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452504645}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.66, y: 3.9, z: 10}
+  m_LocalPosition: {x: 11.66, y: -0.8, z: 10}
   m_LocalScale: {x: -1.1975, y: 18.00379, z: 1}
   m_Children: []
   m_Father: {fileID: 1766946723}
@@ -23313,7 +23313,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1897328090}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -25258,9 +25258,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 18550081}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: Replay
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -26010,7 +26010,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -26034,7 +26034,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766946718}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.52, y: 3.0499978, z: -10}
+  m_LocalPosition: {x: -70.71999, y: 3.5899997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1452504646}
@@ -26115,7 +26115,7 @@ RectTransform:
   m_Children:
   - {fileID: 679379671}
   m_Father: {fileID: 1897328090}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -26166,7 +26166,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 18550081}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Menu
         m_Mode: 1
@@ -27907,10 +27907,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1570819297}
   - {fileID: 566959315}
   - {fileID: 127570574}
   - {fileID: 1776705948}
-  - {fileID: 1570819297}
   - {fileID: 1706808738}
   m_Father: {fileID: 1294379779}
   m_RootOrder: 0
