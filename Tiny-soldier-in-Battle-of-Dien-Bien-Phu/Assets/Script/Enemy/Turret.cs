@@ -24,6 +24,7 @@ public class Turret : MonoBehaviour
     public AudioSource aus;
     public AudioClip auc;
     Vector2 mousePos;
+    Vector2 targetPos;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,8 +37,13 @@ public class Turret : MonoBehaviour
     void Update()
     {
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 targetPos = target.position;
-        Direction = targetPos - (Vector2) transform.position;
+        if (target)
+        {
+             targetPos = target.position;
+            Direction = targetPos - (Vector2)transform.position;
+        }
+        
+        
 
         
         float distance = Vector2.Distance((Vector2)transform.position,targetPos);
@@ -71,7 +77,7 @@ public class Turret : MonoBehaviour
         if (target)
         {
             Tank_Shoot ts = target.GetComponent<Tank_Shoot>();
-            if (ts.GetShooted() == true)
+            if (ts.GetShooted() == true && DistanceObjAndMouse()<3f)
             {
                 HealthEnemy he = GetComponent<HealthEnemy>();
                 he.TakeDamge(ts.damge_Tank);
