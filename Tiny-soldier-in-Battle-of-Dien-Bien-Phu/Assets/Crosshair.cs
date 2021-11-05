@@ -22,10 +22,10 @@ public class Crosshair : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
+        
         if (collision.CompareTag("Enemy"))
         {
-            Debug.Log("dame");
+            
             HealthEnemy healthEnemy = collision.gameObject.GetComponent<HealthEnemy>();
             healthEnemy.TakeDamge(damage);
         }
@@ -36,6 +36,21 @@ public class Crosshair : MonoBehaviour
         }
 
 
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            
+            HealthEnemy healthEnemy = collision.gameObject.GetComponent<HealthEnemy>();
+            healthEnemy.TakeDamge(damage);
+        }
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            HealthPlayer healthPlayer = collision.gameObject.GetComponent<HealthPlayer>();
+            healthPlayer.TakeDamge(damage);
+        }
     }
     public void SetEnableColision(bool col)
     {

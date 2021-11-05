@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,37 +15,39 @@ public class Turret : MonoBehaviour
 
     public GameObject AlarmLight;
     public GameObject Gun;
+    public GameObject Bullet;
+    public GameObject ShootPoint;
+
+    public float Force;
+    public float fireRate;
+    float nextTimeToFire;
+    public AudioSource aus;
+    public AudioClip auc;
+    Vector2 mousePos;
     // Start is called before the first frame update
     void Start()
     {
-        PlayerMovement pm = FindObjectOfType<PlayerMovement>();
-        target = pm.gameObject.transform; ;
+        
+        HealthPlayer pm = FindObjectOfType<HealthPlayer>();
+        target = pm.gameObject.transform; 
     }
 
     // Update is called once per frame
     void Update()
     {
+        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 targetPos = target.position;
         Direction = targetPos - (Vector2) transform.position;
-        RaycastHit2D rayInfo = Physics2D.Raycast(transform.position,Direction,Range);
-        if (rayInfo)
+
+        
+        float distance = Vector2.Distance((Vector2)transform.position,targetPos);
+
+        if (distance<Range)
         {
-            if (rayInfo.collider.gameObject.tag == "Player")
+            if (Dectected == false)
             {
-                if (Dectected == false)
-                {
-                    Dectected = true;
-                    AlarmLight.GetComponent<SpriteRenderer>().color = Color.red;
-                }
-               
-            }
-            else
-            {
-                if (Dectected == true)
-                {
-                    Dectected = false;
-                    AlarmLight.GetComponent<SpriteRenderer>().color = Color.green;
-                }
+                Dectected = true;
+                AlarmLight.GetComponent<SpriteRenderer>().color = Color.red;
             }
         }
         else
@@ -55,14 +58,43 @@ public class Turret : MonoBehaviour
                 AlarmLight.GetComponent<SpriteRenderer>().color = Color.green;
             }
         }
+        
         if (Dectected == true)
         {
             Gun.transform.up = Direction;
+            if (Time.time > nextTimeToFire)
+            {
+                nextTimeToFire = Time.time + (2 / fireRate);
+                Shoot();
+            }
         }
+        if (target)
+        {
+            Tank_Shoot ts = target.GetComponent<Tank_Shoot>();
+            if (ts.GetShooted() == true)
+            {
+                HealthEnemy he = GetComponent<HealthEnemy>();
+                he.TakeDamge(ts.damge_Tank);
+            }
+        }
+        
+
     }
+
+    private void Shoot()
+    {
+        aus.PlayOneShot(auc); 
+        GameObject bulletIns = Instantiate(Bullet,ShootPoint.transform.position,ShootPoint.transform.rotation);
+        bulletIns.GetComponent<Rigidbody2D>().AddForce(Direction * Force);
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.position, Range);
 
+    }
+    public float DistanceObjAndMouse()
+    {
+        return Vector2.Distance((Vector2)transform.position,mousePos);
     }
 }
