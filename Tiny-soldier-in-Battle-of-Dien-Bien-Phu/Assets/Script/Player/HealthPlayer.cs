@@ -13,6 +13,7 @@ public class HealthPlayer : MonoBehaviour
 
     public AudioSource audio;
     public AudioClip audio_death;
+    public GameObject explosiveBig;
     //public bool isDied = false;
     // Start is called before the first frame update
     void Start()
@@ -44,6 +45,22 @@ public class HealthPlayer : MonoBehaviour
     }
     public void Die()
     {
+        if (audio && audio_death)
+        {
+
+            //audio.PlayOneShot(audio_death);
+            AudioSource.PlayClipAtPoint(audio_death, transform.position);
+        }
+
+        
+        if (explosiveBig)
+        {
+            explosiveBig.transform.localScale = new Vector3(5, 5, 0);
+            GameObject a = Instantiate(explosiveBig, transform.position, Quaternion.identity);
+            Destroy(a, 1);
+            Destroy(gameObject);
+            return;
+        }
         if (this.animator && this.collider)
         {
             //isDied = true;

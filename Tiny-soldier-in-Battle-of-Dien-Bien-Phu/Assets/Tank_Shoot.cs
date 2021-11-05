@@ -11,7 +11,8 @@ public class Tank_Shoot : MonoBehaviour
     public GameObject explosion;
     ExplosiveBig explosiveBig;
     public AudioSource aus;
-    public AudioClip auc;
+    public AudioClip auc_Shoot;
+    
 
     public float fireRate = 0.2f;
     float timeUnitFire;
@@ -45,7 +46,7 @@ public class Tank_Shoot : MonoBehaviour
     {
 
 
-        aus.PlayOneShot(auc);
+        aus.PlayOneShot(auc_Shoot);
         targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         
         GameObject explo = Instantiate(explosion, targetPos, Quaternion.identity);
