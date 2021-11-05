@@ -151,7 +151,7 @@ public class CharacterController2D : MonoBehaviour
 	
 	private void OnDrawGizmosSelected()
 	{
-		Gizmos.DrawSphere(m_GroundCheck.position, k_GroundedRadius);
+		Gizmos.DrawWireSphere(m_GroundCheck.position, k_GroundedRadius);
 
 	}
 }
