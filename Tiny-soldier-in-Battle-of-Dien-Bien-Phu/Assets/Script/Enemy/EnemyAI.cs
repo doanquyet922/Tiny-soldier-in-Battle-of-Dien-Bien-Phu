@@ -158,7 +158,8 @@ public class EnemyAI : MonoBehaviour
     {
         timeUnitFire = Time.time + fireRate;
         float angle = faceRight ? 0f : 180f;
-        Instantiate(bulletPrefab, this.FirePoint.position, Quaternion.Euler(new Vector3(0, 0, angle)));
+        GameObject a= Instantiate(bulletPrefab, this.FirePoint.position, Quaternion.Euler(new Vector3(0, 0, angle)));
+        Destroy(a,5);
         yield return new WaitForSeconds(fireRate);
         //StartCoroutine(Shoot());
     }

@@ -30,13 +30,13 @@ public class HealthEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        healthBar.SetHealth(curentHealth);
     }
     public void TakeDamge(int dame)
     {
         
         curentHealth -= dame;
-        healthBar.SetHealth(curentHealth);
+        
         
         if (curentHealth <= 0 && isDied == false)
         {
@@ -50,8 +50,9 @@ public class HealthEnemy : MonoBehaviour
     {
         if (audio && audio_death)
         {
-            
-            audio.PlayOneShot(audio_death);
+
+            //audio.PlayOneShot(audio_death);
+            AudioSource.PlayClipAtPoint(audio_death, transform.position);
         }
             
         isDied = true;
