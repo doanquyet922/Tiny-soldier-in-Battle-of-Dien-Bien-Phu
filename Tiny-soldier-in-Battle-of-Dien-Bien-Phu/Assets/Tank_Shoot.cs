@@ -7,7 +7,7 @@ public class Tank_Shoot : MonoBehaviour
    public Crosshair crosshair;
     Vector2 targetPos;
     public GameObject fireGun;
-    public float damge_Tank = 200;
+    public int damge_Tank = 200;
     public GameObject explosion;
     ExplosiveBig explosiveBig;
     public AudioSource aus;
@@ -16,6 +16,7 @@ public class Tank_Shoot : MonoBehaviour
 
     public float fireRate = 0.2f;
     float timeUnitFire;
+    bool isShoot = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +30,7 @@ public class Tank_Shoot : MonoBehaviour
         
         if (Input.mousePresent && Input.GetMouseButtonDown(0) && timeUnitFire < Time.time)
         {
+            isShoot = true;
             timeUnitFire = Time.time + fireRate;
             Vector3 clickedPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             clickedPosition = transform.InverseTransformPoint(clickedPosition);
@@ -38,6 +40,10 @@ public class Tank_Shoot : MonoBehaviour
                 StartCoroutine(Shoot());
             }
 
+        }
+        else
+        {
+            isShoot = false;
         }
 
     }
@@ -62,7 +68,10 @@ public class Tank_Shoot : MonoBehaviour
 
 
     }
-   
+   public bool GetShooted()
+    {
+        return isShoot;
+    }
 
 
 

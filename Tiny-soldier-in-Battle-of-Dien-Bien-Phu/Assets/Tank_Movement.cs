@@ -90,6 +90,7 @@ public class Tank_Movement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.CompareTag("Enemy"))
         {
             HealthEnemy he = collision.GetComponent<HealthEnemy>();
@@ -99,6 +100,7 @@ public class Tank_Movement : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        
         if (collision.gameObject.CompareTag("Enemy"))
         {
             HealthEnemy he = collision.gameObject.GetComponent<HealthEnemy>();
