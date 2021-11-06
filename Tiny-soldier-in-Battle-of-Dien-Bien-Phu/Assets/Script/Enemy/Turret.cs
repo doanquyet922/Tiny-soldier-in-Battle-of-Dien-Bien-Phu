@@ -92,6 +92,7 @@ public class Turret : MonoBehaviour
         aus.PlayOneShot(auc); 
         GameObject bulletIns = Instantiate(Bullet,ShootPoint.transform.position,ShootPoint.transform.rotation);
         bulletIns.GetComponent<Rigidbody2D>().AddForce(Direction * Force);
+        Destroy(bulletIns, 10); ;
     }
 
     private void OnDrawGizmosSelected()

@@ -17,6 +17,10 @@ public class Tank_Movement : MonoBehaviour
     [Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;
     bool onMove = false;
     bool flag = true;
+
+    public GameObject player;
+    public GameObject cameraTank;
+    public GameObject HealthbarPlayer;
     // Start is called before the first frame update
     void Start()
     {
@@ -96,6 +100,18 @@ public class Tank_Movement : MonoBehaviour
             HealthEnemy he = collision.GetComponent<HealthEnemy>();
             he.curentHealth = 0;
             he.Die();
+        }
+        if (collision.CompareTag("ChangePlayer"))
+        {
+            Tank_Movement tm = GetComponent<Tank_Movement>();
+            tm.enabled = false;
+            Tank_Shoot ts = GetComponent<Tank_Shoot>();
+            ts.enabled = false;
+            gameObject.tag = "Untagged";
+            cameraTank.SetActive(false);
+            player.SetActive(true);
+            HealthbarPlayer.SetActive(true);
+            
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

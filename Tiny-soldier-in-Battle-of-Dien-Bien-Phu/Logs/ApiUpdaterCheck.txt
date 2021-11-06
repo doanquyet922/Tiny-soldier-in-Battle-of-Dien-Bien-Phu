@@ -508,3 +508,33 @@ C# parse time         : 511ms
 candidates check time : 59ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 11/6/2021 12:02:44 AM : Starting C:/Program Files/2020.3.19f/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 77.4846ms
+moved types parse time: 74ms
+candidates parse time : 1ms
+C# parse time         : 260ms
+candidates check time : 35ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 11/6/2021 1:41:48 AM : Starting C:/Program Files/2020.3.19f/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 101.9029ms
+moved types parse time: 96ms
+candidates parse time : 1ms
+C# parse time         : 279ms
+candidates check time : 32ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 11/6/2021 12:42:04 PM : Starting C:/Program Files/2020.3.19f/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 124.2156ms
+moved types parse time: 76ms
+candidates parse time : 2ms
+C# parse time         : 198ms
+candidates check time : 23ms
+console write time    : 0ms
+

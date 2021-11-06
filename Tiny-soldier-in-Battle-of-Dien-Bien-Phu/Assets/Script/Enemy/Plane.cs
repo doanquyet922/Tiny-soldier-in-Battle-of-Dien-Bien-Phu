@@ -39,6 +39,7 @@ public class Plane : MonoBehaviour
         }
         if (collision.CompareTag("PlaneLimitRight"))
         {
+            Debug.Log("Right");
             speed = speed * -1;
             rd.flipX = false;
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class GameManager : MonoBehaviour
     public GameObject GameOverUI;
     public GameObject GameWinUI;
     public Text boomText;
+
+    public VideoPlayer video;
+    public RawImage rawImage;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -27,6 +31,7 @@ public class GameManager : MonoBehaviour
     }
     public void SetBoom(int boom)
     {
+        if(boomText)
         boomText.text=boom.ToString();
     }
     // Update is called once per frame
@@ -53,7 +58,7 @@ public class GameManager : MonoBehaviour
     }
    public void Pause()
     {
-        
+        if(PauseMenuUI)
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPause = true;
@@ -80,6 +85,7 @@ public class GameManager : MonoBehaviour
     }
     public void ShowGameOver()
     {
+        
         Cursor.visible = true;
         Time.timeScale = 0f;
         GameIsOver = true;
@@ -99,5 +105,11 @@ public class GameManager : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+    }
+    public void SkipVideo()
+    {
+        video.Pause();
+        rawImage.gameObject.SetActive(false);
+        Cursor.visible = false;
     }
 }

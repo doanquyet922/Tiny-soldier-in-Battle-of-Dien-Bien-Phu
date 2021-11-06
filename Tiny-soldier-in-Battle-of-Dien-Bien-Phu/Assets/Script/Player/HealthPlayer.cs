@@ -64,6 +64,8 @@ public class HealthPlayer : MonoBehaviour
         if (this.animator && this.collider)
         {
             //isDied = true;
+            collider.enabled = false;
+            
             audio.PlayOneShot(audio_death);
             this.animator.SetTrigger("die");
             StartCoroutine(ShowGameOver());

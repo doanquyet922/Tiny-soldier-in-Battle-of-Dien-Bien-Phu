@@ -33,7 +33,8 @@ public class EnemyAI : MonoBehaviour
         rb = this.GetComponent<Rigidbody2D>();
         animator = this.GetComponent<Animator>();
         he = GetComponent<HealthEnemy>();
-
+        HealthPlayer hep = FindObjectOfType<HealthPlayer>();
+        player = hep.gameObject;
 
     }
 
